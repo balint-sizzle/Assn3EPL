@@ -1,0 +1,10 @@
+let rec mod(pa: int * int): int = 
+  let x = fst(pa)
+  in let y = snd(pa)
+  in if (x < y) then x else (mod (x-y, y))
+in
+let fun roundTrip(x: int) = 
+  if (mod(x/1000, 2) == 0) then (mod (x, 1000)) else (1000 - mod(x, 1000))
+in let iwiggle = signal { roundTrip (time * 100) - 500 }
+in let iwaggle = signal { roundTrip ((time + 5) * 100) - 500 }
+in moveXY(pure(0), iwiggle, read("cat")) <+> moveXY(iwaggle, pure(0), read("rabbit"))

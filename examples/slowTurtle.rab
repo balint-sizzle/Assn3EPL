@@ -1,0 +1,2 @@
+let x = read("turtle") in
+signal { moveXY(time * 20, 100, %(x)) }

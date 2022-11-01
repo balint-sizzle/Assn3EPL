@@ -1,0 +1,14 @@
+let rec overAll(l : list[signal[frame]]) : signal[frame] =
+  case l { [] => blank | y :: ys =>  overAll(ys) <+> y }
+in
+let animalRun = \ name: string . \ speed: int . \ pos: int .
+  signal{ moveXY(time*speed-500, pos, read(name)) }
+in 
+let l = 
+  ((animalRun "turtle")   10) 400    ::
+  ((animalRun "cat")      40) 200    ::
+  ((animalRun "rabbit")   50) 0      ::
+  ((animalRun "elephant") 20) (0-200) ::
+  ((animalRun "bee")      30) (0-400) ::
+  ([]:signal[frame])
+in overAll(l)
