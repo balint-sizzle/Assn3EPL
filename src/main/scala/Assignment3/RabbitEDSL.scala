@@ -128,7 +128,7 @@ object Assignment3Embedded {
   // BEGIN ANSWER
 
   object RabbitDSLImpl extends RabbitDSL {
-    type RabbitAnimation[T] = Unit // TODO: change this
+    type RabbitAnimation[T] = Signal[Frame ] // TODO: change this
 
     def time(): RabbitAnimation[Time]
       = sys.error("todo")
