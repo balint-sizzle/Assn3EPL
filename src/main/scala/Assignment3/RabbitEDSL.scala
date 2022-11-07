@@ -9,6 +9,7 @@ import math.{cos, sin, Pi}
 import Assignment3.AnimatedGif.AnimatedGif._
 import Assignment3.FRP.Signal
 import Assignment3.FRP.Signal._
+import Assignment3.AnimatedGif.AnimatedGif
 
 object Assignment3Embedded {
 
@@ -128,46 +129,54 @@ object Assignment3Embedded {
   // BEGIN ANSWER
 
   object RabbitDSLImpl extends RabbitDSL {
-    type RabbitAnimation[T] = Signal[Frame ] // TODO: change this
+    type RabbitAnimation[T] = Signal[T] // TODO: change this
 
     def time(): RabbitAnimation[Time]
-      = sys.error("todo")
+      = envtime
 
     def read(name: String): RabbitAnimation[Frame]
-      = sys.error("todo")
+      = Signal(List(Picture(name)))
 
     def blank(): RabbitAnimation[Frame]
-      = sys.error("todo")
+      = Signal(List())
 
     def pure[A](t: A): RabbitAnimation[A]
-      = sys.error("todo")
+      = Signal(t)
 
     def app[A, B](f: RabbitAnimation[A => B], t: RabbitAnimation[A])
                  : RabbitAnimation[B]
-      = sys.error("todo")
+      = Signal(f()(t()))
 
     def when[A]( b: RabbitAnimation[Boolean], t1: RabbitAnimation[A]
                , t2: RabbitAnimation[A]): RabbitAnimation[A]
-      = sys.error("todo")
+      = {
+        if (b.apply()==true){t1}
+        else {t2}
+        }
 
     def moveXY( dx: RabbitAnimation[Int], dy: RabbitAnimation[Int]
               , a: RabbitAnimation[Frame]): RabbitAnimation[Frame]
-      = sys.error("todo")
+      = Signal(a.apply().map({p: Picture => Picture(p.name, p.x+dx.apply(), p.y+dy.apply())}))
 
     def scale(factor: RabbitAnimation[Double], a: RabbitAnimation[Frame])
              : RabbitAnimation[Frame]
-      = sys.error("todo")
+      = Signal(a.apply().map({p: Picture => Picture(p.name, scaleFactor=factor.apply())}))
 
     def rotate(angle: RabbitAnimation[Double], a: RabbitAnimation[Frame])
               : RabbitAnimation[Frame]
-      = sys.error("todo")
+      = {
+        var r = angle.apply()
+        Signal(a.apply().map({p: Picture=>Picture(p.name, x=(p.x.asInstanceOf[Double]*cos(r)+p.y.asInstanceOf[Double]*sin(r)).asInstanceOf[Int],
+                                                         y=(-p.x.asInstanceOf[Double]*sin(r)+p.y.asInstanceOf[Double]*cos(r)).asInstanceOf[Int],
+                                                         angle = p.angle+r)}))
+      }
 
     def over(x: RabbitAnimation[Frame], y: RabbitAnimation[Frame])
             : RabbitAnimation[Frame]
-      = sys.error("todo")
+      = Signal(x.apply()++y.apply())
 
     def runRabbitAnimation[T](term: RabbitAnimation[T]): Signal[T]
-      = sys.error("todo")
+      = term
   }
 
   // END ANSWER
