@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(7c86ae83-920c-4629-983b-e5fbc185b315), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/sizzle/EPL/Assn3EPL/target/scala-2.11/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitEDSL.scala:267:3: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m  )[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitEDSL.scala:281:1: ')' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 7 Nov 2022, 16:59:22[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

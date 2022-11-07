@@ -166,8 +166,8 @@ object Assignment3Embedded {
               : RabbitAnimation[Frame]
       = {
         var r = angle.apply()
-        Signal(a.apply().map({p: Picture=>Picture(p.name, x=(p.x.asInstanceOf[Double]*cos(r)+p.y.asInstanceOf[Double]*sin(r)).asInstanceOf[Int],
-                                                         y=(-p.x.asInstanceOf[Double]*sin(r)+p.y.asInstanceOf[Double]*cos(r)).asInstanceOf[Int],
+        Signal(a.apply().map({p: Picture=>Picture(p.name, x=(p.x*cos(r)+p.y*sin(r)).asInstanceOf[Int],
+                                                         y=(-p.x*sin(r)+p.y*cos(r)).asInstanceOf[Int],
                                                          angle = p.angle+r)}))
       }
 
@@ -188,8 +188,8 @@ object Assignment3Embedded {
   ///////////////////////////////////////////////////////////////////////////
 
   // change the comments to test RabbitDSLImpl instead
-  import Testing._
-  // import RabbitDSLImpl._
+  //import Testing._
+  import RabbitDSLImpl._
 
   def turtleAndRabbit() =
     moveXY(pure({x:Int => x*50-500}) <*> time, pure(200), read("turtle")) <+>
@@ -256,14 +256,14 @@ object Assignment3Embedded {
 
   type Filename = String
   val toRun = List(
-    (turtleAndRabbit(), 20, "turtleAndRabbit.gif"),
-    (animalRace(), 20, "animalRace.gif"),
-    (animalDance.catRabbitDance(), 20, "catRabbitDance.gif"),
-    (animalDance.catRabbitDoubleDance(), 20, "catRabbitDoubleDance.gif"),
-    (animalDance.catRabbitZoomDance(), 20, "catRabbitZoomDance.gif"),
-    (animalDance.catRabbitCircleDance(), 20, "catRabbitCircleDance.gif"),
-    (animalDance2.catRabbitDance(), 20, "catRabbitDance2.gif"),
-    (animalDance2.catRabbitDoubleDance(), 20, "catRabbitDoubleDance2.gif")
+    // (turtleAndRabbit(), 20, "turtleAndRabbit.gif"),
+    // (animalRace(), 20, "animalRace.gif"),
+    // (animalDance.catRabbitDance(), 20, "catRabbitDance.gif"),
+    // (animalDance.catRabbitDoubleDance(), 20, "catRabbitDoubleDance.gif"),
+    // (animalDance.catRabbitZoomDance(), 20, "catRabbitZoomDance.gif"),
+       (animalDance.catRabbitCircleDance(), 20, "catRabbitCircleDance.gif")
+    //(animalDance2.catRabbitDance(), 20, "catRabbitDance2.gif"),
+    //(animalDance2.catRabbitDoubleDance(), 20, "catRabbitDoubleDance2.gif")
   )
 
   def drawFiles(xs: List[(RabbitAnimation[Frame], Time, Filename)]) = {
