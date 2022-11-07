@@ -165,10 +165,9 @@ object Assignment3Embedded {
     def rotate(angle: RabbitAnimation[Double], a: RabbitAnimation[Frame])
               : RabbitAnimation[Frame]
       = {
-        var r = angle.apply()
-        Signal(a.apply().map({p: Picture=>Picture(p.name, x=(p.x*cos(r)+p.y*sin(r)).asInstanceOf[Int],
-                                                         y=(-p.x*sin(r)+p.y*cos(r)).asInstanceOf[Int],
-                                                         angle = p.angle+r)}))
+        Signal(a.apply().map({p: Picture=>Picture(p.name, x=(p.x*cos(angle.apply())+p.y*sin(angle.apply())).asInstanceOf[Int],
+                                                         y=(-p.x*sin(angle.apply())+p.y*cos(angle.apply())).asInstanceOf[Int],
+                                                         angle = p.angle+angle.apply())}))
       }
 
     def over(x: RabbitAnimation[Frame], y: RabbitAnimation[Frame])
