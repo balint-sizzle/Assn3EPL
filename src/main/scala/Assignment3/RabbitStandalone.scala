@@ -43,7 +43,118 @@ object Assignment3Standalone {
       // Values
       case v: Value => valueTy(v)
       // BEGIN ANSWER
-      case _ => sys.error("todo")
+      //Arithmetics
+      case Plus(e1, e2) => (tyOf(ctx, e1), tyOf(ctx, e2)) match {
+        case (IntTy, IntTy) => IntTy
+        case _ => sys.error("non-integer arguments to +")
+      }
+
+      case Minus(e1, e2) => (tyOf(ctx, e1), tyOf(ctx, e2)) match {
+        case (IntTy, IntTy) => IntTy
+        case _ => sys.error("non-integer arguments to -")
+      }
+
+      case Times(e1, e2) => (tyOf(ctx,e1), tyOf(ctx,e2)) match {
+        case (IntTy, IntTy) => IntTy
+        case _ => sys.error("non-integer arguments to *")
+      }
+
+      case Div(e1, e2) => (tyOf(ctx,e1), tyOf(ctx,e2)) match {
+        case (IntTy, IntTy) => IntTy
+        case _ => sys.error("non-integer arguments to /")
+      }
+      
+      //Booleans
+      case Eq(e1, e2) => (tyOf(ctx,e1), tyOf(ctx,e2)) match {
+        case (a,b) => if (a == b){
+          BoolTy
+        } else {
+          sys.error("types must be same for equality")
+        }
+      }
+      
+      case IfThenElse(e,e1,e2) =>
+      (tyOf(ctx,e),tyOf(ctx,e1),tyOf(ctx,e2)) match {
+        case (BoolTy,a,b) => if (a == b) {
+          a
+        }
+        else {
+          sys.error("types of branches must be equal")
+        }
+        case (_,a,b) => sys.error("type of conditional must be boolean")
+      }
+      
+      case GreaterThan(e1, e2) => (tyOf(ctx,e1), tyOf(ctx,e2)) match {
+        case (a,b) => if (a == b){
+          BoolTy
+        } else {
+          sys.error("types must be same for >")
+        }
+      }
+
+      case LessThan(e1, e2) => (tyOf(ctx,e1), tyOf(ctx, e2)) match {
+        case (a,b) => if (a == b){
+          BoolTy
+        } else {
+          sys.error("types must be same for <")
+        }
+      }
+
+      //Variables and let binding
+      case Var(x) => ctx(x)
+      case Let(x, e1, e2) => tyOf(ctx + (x -> (tyOf(ctx,e1))), e2)
+      case LetPair(x,y,e1,e2) => tyOf(ctx, e1) match {
+        case PairTy(a,b) => tyOf(ctx + (x -> a) + (y -> b), e2)
+        case _ => sys.error("Let pair's first argument must be a pair")
+      }
+
+      case LetFun(f,x,ty,e1,e2) => {
+        val ty2 = tyOf(ctx + (x -> ty), e1);
+        tyOf(ctx + (f -> FunTy(ty,ty2)), e2)
+      }
+
+      case LetRec(f,x,ty1,ty2,e1,e2) => {
+        val fty = FunTy(ty1,ty2);
+        if (tyOf(ctx + (x -> ty1) + (f -> fty), e1) == ty2) {
+          tyOf(ctx + (f -> fty), e2)
+        } else {
+          sys.error("Type of recursive function does not match specification")
+        }
+      }
+      case Pair(e1,e2) => PairTy(tyOf(ctx,e1),tyOf(ctx,e2))
+      case Fst(e) => tyOf(ctx,e) match {
+        case PairTy(a,b) => a
+        case _ => sys.error("First must be applied to a pair")
+      }
+      case Snd(e) => tyOf(ctx,e) match {
+        case PairTy(a,b) => b
+        case _ => sys.error("Second must be applied to a pair")
+      }
+
+      //Functions
+      case Lambda(x,ty,e) => FunTy(ty,tyOf(ctx + (x -> ty),e))
+      case Rec(f,x,xty,ty,e) => tyOf(ctx + (f -> FunTy(xty,ty)) + (x -> xty),e) match {
+        case body => if (ty == body) {
+          FunTy(xty,ty)
+        } else {
+          sys.error("Function body type does not match that specified")
+        }
+      }
+
+      case App(e1,e2) => (tyOf(ctx,e1),tyOf(ctx,e2)) match {
+        case (FunTy(a,b),c) => if (a == c) {
+          b
+        } else {
+          sys.error("Argument type does not match fuction input")
+        }
+        case (a,c) => sys.error("Function type not found!\n" +
+            "Typing " + e1.toString + "type is: " + a.toString + "\n" +
+            "Typing " + e2.toString + "type is: " + c.toString + "\n")
+
+      }
+      //String
+      //Pair
+      //Lists
       // END ANSWER
     }
   }

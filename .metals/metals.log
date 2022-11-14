@@ -3432,3 +3432,910 @@ java.lang.NullPointerException
 2022.11.07 16:24:49 INFO  compiling assignment3 (1 scala source)
 2022.11.07 16:24:49 WARN  there were three feature warnings; re-run with -feature for details
 2022.11.07 16:24:49 INFO  time: compiled assignment3 in 0.8s
+2022.11.13 19:59:30 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sizzle/EPL/Assn3EPL/.metals/lsp.trace.json or /home/sizzle/.cache/metals/lsp.trace.json
+2022.11.13 19:59:33 INFO  logging to file /home/sizzle/EPL/Assn3EPL/.metals/metals.log
+2022.11.13 19:59:33 INFO  Started: Metals version 0.11.9 in workspace '/home/sizzle/EPL/Assn3EPL' for client Visual Studio Code 1.73.1.
+2022.11.13 19:59:43 INFO  time: initialize in 9.84s
+2022.11.13 19:59:49 INFO  Attempting to connect to the build server...
+2022.11.13 19:59:49 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/sizzle/.bloop/bloop.json
+Nov 13, 2022 7:59:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2022.11.13 20:00:11 INFO  no build target found for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitEDSL.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.11.13 20:00:13 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals10124479796196673571/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.11.13 20:00:13 ERROR Starting the bsp launcher for bloop...
+2022.11.13 20:00:13 ERROR Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher7759224381139519355/bsp.socket'...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR error: The command bsp --protocol local --socket /tmp/bsp-launcher7759224381139519355/bsp.socket returned with an error
+2022.11.13 20:00:13 ERROR > No server running at 127.0.0.1:8212, let's fire one...
+2022.11.13 20:00:13 ERROR > Resolving ch.epfl.scala:bloop-frontend_2.12:1.5.4...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Starting bloop server at 127.0.0.1:8212...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > Attempting a connection to the server...
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m Loading 2 projects from '/home/sizzle/EPL/Assn3EPL/.bloop'...
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m Loading project from '/home/sizzle/EPL/Assn3EPL/.bloop/assignment3.json'
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m Loading project from '/home/sizzle/EPL/Assn3EPL/.bloop/assignment3-test.json'
+2022.11.13 20:00:13 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar doesn't exist!
+2022.11.13 20:00:13 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar doesn't exist!
+2022.11.13 20:00:13 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar doesn't exist!
+2022.11.13 20:00:13 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar doesn't exist!
+2022.11.13 20:00:13 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar doesn't exist!
+2022.11.13 20:00:13 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar doesn't exist!
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.12.
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+2022.11.13 20:00:13 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar doesn't exist!
+2022.11.13 20:00:13 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar doesn't exist!
+2022.11.13 20:00:13 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar doesn't exist!
+2022.11.13 20:00:13 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar doesn't exist!
+2022.11.13 20:00:13 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar doesn't exist!
+2022.11.13 20:00:13 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar doesn't exist!
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.12.
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m Elapsed: 1029.764079 ms
+2022.11.13 20:00:13 ERROR > [0m[31m[E][0m Failed to load project from /home/sizzle/EPL/Assn3EPL/.bloop/assignment3.json
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /home/sizzle/EPL/Assn3EPL/.bloop/assignment3.json
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:295)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m Caused by: java.lang.RuntimeException: Missing compiler jar in Scala jars /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	scala.sys.package$.error(package.scala:30)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$compilerJar$2(ScalaInstance.scala:46)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	scala.Option.getOrElse(Option.scala:189)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:46)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:180)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:185)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:185)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:311)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:306)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:289)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2022.11.13 20:00:13 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+2022.11.13 20:00:13 ERROR error: Trying a tcp-based connection to the server instead...
+2022.11.13 20:00:13 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 16035'...
+2022.11.13 20:00:13 ERROR Waiting for the bsp connection to come up...
+2022.11.13 20:00:13 ERROR error: The command bsp --protocol tcp --port 16035 returned with an error
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m Loading 2 projects from '/home/sizzle/EPL/Assn3EPL/.bloop'...
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m Loading project from '/home/sizzle/EPL/Assn3EPL/.bloop/assignment3.json'
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m Loading project from '/home/sizzle/EPL/Assn3EPL/.bloop/assignment3-test.json'
+2022.11.13 20:00:13 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar doesn't exist!
+2022.11.13 20:00:13 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar doesn't exist!
+2022.11.13 20:00:13 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar doesn't exist!
+2022.11.13 20:00:13 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar doesn't exist!
+2022.11.13 20:00:13 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar doesn't exist!
+2022.11.13 20:00:13 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar doesn't exist!
+2022.11.13 20:00:13 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.12.
+2022.11.13 20:00:14 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+2022.11.13 20:00:14 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+2022.11.13 20:00:14 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar
+2022.11.13 20:00:14 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+2022.11.13 20:00:14 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.11.13 20:00:14 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+2022.11.13 20:00:14 ERROR > [0m[32m[D][0m Elapsed: 77.676982 ms
+2022.11.13 20:00:14 ERROR > [0m[31m[E][0m Failed to load project from /home/sizzle/EPL/Assn3EPL/.bloop/assignment3.json
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /home/sizzle/EPL/Assn3EPL/.bloop/assignment3.json
+2022.11.13 20:00:14 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar doesn't exist!
+2022.11.13 20:00:14 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar doesn't exist!
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:295)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m Caused by: java.lang.RuntimeException: Missing compiler jar in Scala jars /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+2022.11.13 20:00:14 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar doesn't exist!
+2022.11.13 20:00:14 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar doesn't exist!
+2022.11.13 20:00:14 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar doesn't exist!
+2022.11.13 20:00:14 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar doesn't exist!
+2022.11.13 20:00:14 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.12.
+2022.11.13 20:00:14 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+2022.11.13 20:00:14 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+2022.11.13 20:00:14 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar
+2022.11.13 20:00:14 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+2022.11.13 20:00:14 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.11.13 20:00:14 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	scala.sys.package$.error(package.scala:30)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$compilerJar$2(ScalaInstance.scala:46)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	scala.Option.getOrElse(Option.scala:189)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:46)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:180)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:185)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:185)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:311)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:306)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:289)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2022.11.13 20:00:14 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+2022.11.13 20:00:14 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.11.13 20:00:15 ERROR Failed to connect with build server, no functionality will work.java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:496)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.11.13 20:00:15 WARN  no build target for: /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/AnimatedGif.scala
+2022.11.13 20:00:15 WARN  no build target for: /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitEDSL.scala
+Nov 13, 2022 8:00:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2022.11.13 20:00:15 WARN  no build target for: /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/FRP.scala
+Nov 13, 2022 8:00:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+2022.11.13 20:00:18 WARN  no build target for: /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:00:29 INFO  [info] welcome to sbt 1.7.3 (Ubuntu Java 11.0.17)
+2022.11.13 20:00:33 INFO  time: code lens generation in 37s
+2022.11.13 20:00:35 INFO  [info] loading settings for project assn3epl-build-build from metals.sbt ...
+2022.11.13 20:00:38 INFO  time: code lens generation in 18s
+2022.11.13 20:00:40 INFO  [info] loading project definition from /home/sizzle/EPL/Assn3EPL/project/project
+2022.11.13 20:00:41 INFO  time: code lens generation in 24s
+2022.11.13 20:00:42 INFO  time: code lens generation in 26s
+2022.11.13 20:00:45 INFO  [info] loading settings for project assn3epl-build from metals.sbt ...
+2022.11.13 20:00:45 INFO  [info] loading project definition from /home/sizzle/EPL/Assn3EPL/project
+2022.11.13 20:00:48 INFO  [warn] sbt-bloop-1.5.4-sources.jar no longer exists at /C:/Users/szila/AppData/Local/Coursier/Cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.4/sbt-bloop-1.5.4-sources.jar
+2022.11.13 20:00:56 INFO  [success] Generated .bloop/assn3epl-build.json
+2022.11.13 20:00:56 INFO  [success] Total time: 10 s, completed 13 Nov 2022, 20:00:56
+2022.11.13 20:00:57 INFO  [info] loading settings for project assignment3 from build.sbt ...
+2022.11.13 20:00:57 INFO  [info] set current project to Assignment 3 (in build file:/home/sizzle/EPL/Assn3EPL/)
+2022.11.13 20:00:58 INFO  [warn] scala-library-2.11.12-sources.jar no longer exists at /C:/Users/szila/AppData/Local/Coursier/Cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12-sources.jar
+2022.11.13 20:01:00 INFO  [success] Generated .bloop/assignment3-test.json
+2022.11.13 20:01:00 INFO  [success] Generated .bloop/assignment3.json
+2022.11.13 20:01:00 INFO  [success] Total time: 2 s, completed 13 Nov 2022, 20:01:00
+2022.11.13 20:01:01 INFO  time: ran 'sbt bloopInstall' in 47s
+2022.11.13 20:01:01 INFO  Attempting to connect to the build server...
+2022.11.13 20:01:01 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/sizzle/.bloop/bloop.json
+2022.11.13 20:01:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sizzle/EPL/Assn3EPL/.metals/bsp.trace.json or /home/sizzle/.cache/metals/bsp.trace.json
+2022.11.13 20:01:06 INFO  Attempting to connect to the build server...
+2022.11.13 20:01:06 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/sizzle/.bloop/bloop.json
+2022.11.13 20:01:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sizzle/EPL/Assn3EPL/project/.metals/bsp.trace.json or /home/sizzle/.cache/metals/bsp.trace.json
+2022.11.13 20:01:08 INFO  time: Connected to build server in 7.86s
+2022.11.13 20:01:08 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.13 20:01:09 INFO  time: Imported build in 0.29s
+2022.11.13 20:01:19 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.13 20:01:22 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.13 20:01:22 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.13 20:01:22 INFO  time: indexed workspace in 13s
+2022.11.13 20:01:24 INFO  compiling assignment3 (6 scala sources)
+Nov 13, 2022 8:01:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+2022.11.13 20:02:30 WARN  there were three feature warnings; re-run with -feature for details
+2022.11.13 20:02:31 INFO  time: compiled assignment3 in 1m6s
+2022.11.13 20:07:12 WARN  no build target for: /home/sizzle/EPL/Assn3EPL/Assn2Solution.scala
+2022.11.13 20:09:56 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:09:58 INFO  time: compiled assignment3 in 1.14s
+Nov 13, 2022 8:09:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 76
+2022.11.13 20:10:19 INFO  compiling assignment3 (1 scala source)
+Nov 13, 2022 8:10:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 93
+Nov 13, 2022 8:10:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 96
+Nov 13, 2022 8:10:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 94
+Nov 13, 2022 8:10:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 106
+2022.11.13 20:10:27 INFO  time: compiled assignment3 in 7.84s
+2022.11.13 20:10:31 INFO  compiling assignment3 (1 scala source)
+Nov 13, 2022 8:10:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 127
+2022.11.13 20:10:37 INFO  time: compiled assignment3 in 5.42s
+2022.11.13 20:10:43 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:10:48 INFO  time: compiled assignment3 in 5.71s
+2022.11.13 20:11:03 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:11:09 INFO  time: compiled assignment3 in 5.49s
+Nov 13, 2022 8:11:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 214
+2022.11.13 20:11:25 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:11:25 INFO  time: compiled assignment3 in 0.29s
+Nov 13, 2022 8:11:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 226
+2022.11.13 20:11:29 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:11:30 INFO  time: compiled assignment3 in 1.14s
+2022.11.13 20:13:08 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:13:08 INFO  time: compiled assignment3 in 0.66s
+2022.11.13 20:13:15 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:13:15 INFO  time: compiled assignment3 in 0.23s
+Nov 13, 2022 8:13:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 313
+Nov 13, 2022 8:13:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 312
+2022.11.13 20:13:19 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:13:19 INFO  time: compiled assignment3 in 0.28s
+Nov 13, 2022 8:13:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 335
+2022.11.13 20:13:22 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:13:22 INFO  time: compiled assignment3 in 0.84s
+2022.11.13 20:13:35 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:13:36 INFO  time: compiled assignment3 in 1.08s
+Nov 13, 2022 8:13:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 360
+2022.11.13 20:13:38 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:13:38 INFO  time: compiled assignment3 in 0.48s
+Nov 13, 2022 8:13:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 370
+Nov 13, 2022 8:14:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 381
+2022.11.13 20:14:04 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:14:04 INFO  time: compiled assignment3 in 0.74s
+2022.11.13 20:14:06 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:14:06 INFO  time: compiled assignment3 in 0.29s
+2022.11.13 20:14:06 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:14:08 INFO  time: compiled assignment3 in 0.94s
+Nov 13, 2022 8:14:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 412
+2022.11.13 20:14:11 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:14:11 INFO  time: compiled assignment3 in 0.19s
+2022.11.13 20:14:13 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:14:13 INFO  time: compiled assignment3 in 0.66s
+2022.11.13 20:14:21 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:14:22 INFO  time: compiled assignment3 in 1.04s
+Nov 13, 2022 8:14:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 457
+2022.11.13 20:14:26 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:14:26 INFO  time: compiled assignment3 in 0.68s
+2022.11.13 20:14:28 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:14:28 INFO  time: compiled assignment3 in 0.44s
+2022.11.13 20:14:32 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:14:33 INFO  time: compiled assignment3 in 1.03s
+2022.11.13 20:14:52 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:14:52 INFO  time: compiled assignment3 in 0.17s
+2022.11.13 20:14:54 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:14:54 INFO  time: compiled assignment3 in 0.1s
+Nov 13, 2022 8:15:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 510
+Nov 13, 2022 8:15:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 512
+2022.11.13 20:15:02 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:15:02 INFO  time: compiled assignment3 in 0.39s
+Nov 13, 2022 8:15:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 532
+Nov 13, 2022 8:15:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 530
+Nov 13, 2022 8:15:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 533
+Nov 13, 2022 8:15:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 534
+Nov 13, 2022 8:15:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 536
+2022.11.13 20:15:08 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:15:08 INFO  time: compiled assignment3 in 0.5s
+2022.11.13 20:15:10 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:15:10 INFO  time: compiled assignment3 in 0.79s
+2022.11.13 20:15:21 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:15:22 INFO  time: compiled assignment3 in 1.14s
+Nov 13, 2022 8:15:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 597
+Nov 13, 2022 8:15:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 596
+2022.11.13 20:15:24 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:15:24 INFO  time: compiled assignment3 in 0.79s
+2022.11.13 20:15:27 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:15:31 INFO  time: compiled assignment3 in 3.45s
+2022.11.13 20:15:42 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:15:42 INFO  time: compiled assignment3 in 0.2s
+2022.11.13 20:15:49 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:15:49 INFO  time: compiled assignment3 in 0.63s
+Nov 13, 2022 8:15:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 669
+Nov 13, 2022 8:15:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 668
+Nov 13, 2022 8:15:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 671
+2022.11.13 20:15:52 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:15:55 INFO  time: compiled assignment3 in 2.68s
+2022.11.13 20:16:03 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:16:06 INFO  time: compiled assignment3 in 3.8s
+2022.11.13 20:16:10 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:16:14 INFO  time: compiled assignment3 in 3.98s
+2022.11.13 20:16:14 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:16:18 INFO  time: compiled assignment3 in 3.07s
+2022.11.13 20:16:20 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:16:20 INFO  time: compiled assignment3 in 0.11s
+2022.11.13 20:16:35 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:16:35 INFO  time: compiled assignment3 in 0.66s
+2022.11.13 20:16:52 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:16:52 INFO  time: compiled assignment3 in 0.41s
+2022.11.13 20:16:55 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:16:55 INFO  time: compiled assignment3 in 0.27s
+2022.11.13 20:16:59 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:16:59 INFO  time: compiled assignment3 in 0.4s
+2022.11.13 20:17:01 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:17:01 INFO  time: compiled assignment3 in 0.11s
+2022.11.13 20:17:15 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:17:15 INFO  time: compiled assignment3 in 0.28s
+2022.11.13 20:17:18 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:17:18 INFO  time: compiled assignment3 in 0.96s
+Nov 13, 2022 8:17:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1099
+2022.11.13 20:17:30 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:17:34 INFO  time: compiled assignment3 in 3.31s
+Nov 13, 2022 8:17:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2073)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider$$anonfun$1.apply(CompletionProvider.scala:77)
+	at scala.meta.internal.pc.CompletionProvider$$anonfun$1.apply(CompletionProvider.scala:76)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$class.toStream(Iterator.scala:1320)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1334)
+	at scala.collection.Iterator$$anonfun$toStream$1.apply(Iterator.scala:1320)
+	at scala.collection.Iterator$$anonfun$toStream$1.apply(Iterator.scala:1320)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1233)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1223)
+	at scala.collection.immutable.StreamIterator$$anonfun$next$1.apply(Stream.scala:1120)
+	at scala.collection.immutable.StreamIterator$$anonfun$next$1.apply(Stream.scala:1120)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1109)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1109)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1114)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:30)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:157)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:287)
+	at com.google.gson.Gson.toJson(Gson.java:786)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:786)
+	at com.google.gson.Gson.toJson(Gson.java:756)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+Nov 13, 2022 8:17:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1159
+2022.11.13 20:17:47 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:17:47 INFO  time: compiled assignment3 in 0.32s
+2022.11.13 20:17:56 INFO  compiling assignment3 (1 scala source)
+Nov 13, 2022 8:17:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1249
+2022.11.13 20:18:01 INFO  time: compiled assignment3 in 4.73s
+2022.11.13 20:18:03 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:18:03 INFO  time: compiled assignment3 in 0.24s
+2022.11.13 20:18:05 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:18:05 INFO  time: compiled assignment3 in 0.42s
+2022.11.13 20:18:20 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:18:20 INFO  time: compiled assignment3 in 0.82s
+Nov 13, 2022 8:18:21 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 13, 2022 8:18:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1391
+2022.11.13 20:18:27 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:18:27 INFO  time: compiled assignment3 in 0.26s
+2022.11.13 20:18:42 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:18:45 INFO  time: compiled assignment3 in 2.86s
+2022.11.13 20:18:45 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:18:50 INFO  time: compiled assignment3 in 3.99s
+2022.11.13 20:18:50 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:18:51 INFO  time: compiled assignment3 in 0.52s
+2022.11.13 20:18:53 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:18:53 INFO  time: compiled assignment3 in 0.12s
+2022.11.13 20:19:06 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:19:07 INFO  time: compiled assignment3 in 1.07s
+2022.11.13 20:19:10 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:19:10 INFO  time: compiled assignment3 in 0.74s
+2022.11.13 20:19:14 INFO  compiling assignment3 (1 scala source)
+Nov 13, 2022 8:19:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1577
+2022.11.13 20:19:19 INFO  time: compiled assignment3 in 5.79s
+Nov 13, 2022 8:19:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1624
+2022.11.13 20:19:46 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:19:46 INFO  time: compiled assignment3 in 0.47s
+2022.11.13 20:19:46 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:19:51 INFO  time: compiled assignment3 in 4.08s
+2022.11.13 20:19:52 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:19:57 INFO  time: compiled assignment3 in 4.38s
+2022.11.13 20:20:21 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:20:24 INFO  time: compiled assignment3 in 3.4s
+2022.11.13 20:20:26 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:20:26 INFO  time: compiled assignment3 in 0.24s
+2022.11.13 20:20:46 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:20:46 INFO  time: compiled assignment3 in 0.52s
+2022.11.13 20:20:50 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:20:50 INFO  time: compiled assignment3 in 0.66s
+2022.11.13 20:20:51 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:20:51 INFO  time: compiled assignment3 in 0.3s
+Nov 13, 2022 8:20:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1863
+Nov 13, 2022 8:20:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1862
+2022.11.13 20:20:59 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:20:59 INFO  time: compiled assignment3 in 82ms
+Nov 13, 2022 8:21:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1868
+Nov 13, 2022 8:21:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1869
+Nov 13, 2022 8:21:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1870
+Nov 13, 2022 8:21:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1872
+2022.11.13 20:21:01 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:21:01 INFO  time: compiled assignment3 in 0.42s
+2022.11.13 20:21:07 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:21:07 INFO  time: compiled assignment3 in 0.51s
+2022.11.13 20:21:10 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:21:10 INFO  time: compiled assignment3 in 0.12s
+2022.11.13 20:21:13 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:21:13 INFO  time: compiled assignment3 in 0.11s
+2022.11.13 20:21:14 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:21:14 INFO  time: compiled assignment3 in 87ms
+2022.11.13 20:21:18 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:21:18 INFO  time: compiled assignment3 in 0.25s
+2022.11.13 20:21:20 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:21:20 INFO  time: compiled assignment3 in 0.22s
+2022.11.13 20:21:21 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:21:21 INFO  time: compiled assignment3 in 0.24s
+2022.11.13 20:21:24 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:21:24 INFO  time: compiled assignment3 in 0.51s
+2022.11.13 20:21:29 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:21:29 INFO  time: compiled assignment3 in 0.56s
+2022.11.13 20:21:35 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:21:35 INFO  time: compiled assignment3 in 0.24s
+2022.11.13 20:21:38 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:21:38 INFO  time: compiled assignment3 in 0.73s
+Nov 13, 2022 8:21:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2009
+2022.11.13 20:21:45 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:21:45 INFO  time: compiled assignment3 in 0.13s
+2022.11.13 20:21:48 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:21:48 INFO  time: compiled assignment3 in 0.11s
+Nov 13, 2022 8:28:11 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.13 20:28:24 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:28:24 INFO  time: compiled assignment3 in 0.49s
+2022.11.13 20:28:29 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:28:29 INFO  time: compiled assignment3 in 0.14s
+2022.11.13 20:29:01 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:29:01 INFO  time: compiled assignment3 in 0.22s
+2022.11.13 20:29:03 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:29:03 INFO  time: compiled assignment3 in 0.13s
+2022.11.13 20:29:05 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:29:05 INFO  time: compiled assignment3 in 0.14s
+2022.11.13 20:29:10 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:29:10 INFO  time: compiled assignment3 in 0.21s
+2022.11.13 20:29:22 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:29:22 INFO  time: compiled assignment3 in 0.13s
+2022.11.13 20:29:24 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:29:24 INFO  time: compiled assignment3 in 0.29s
+Nov 13, 2022 8:29:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2214
+2022.11.13 20:29:26 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:29:26 INFO  time: compiled assignment3 in 81ms
+2022.11.13 20:29:30 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:29:30 INFO  time: compiled assignment3 in 0.33s
+Nov 13, 2022 8:29:37 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 13, 2022 8:29:56 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 13, 2022 8:29:57 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 13, 2022 8:29:58 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 13, 2022 8:30:11 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.13 20:30:33 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:30:33 INFO  time: compiled assignment3 in 0.29s
+Nov 13, 2022 8:46:17 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 13, 2022 8:46:18 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 13, 2022 8:46:21 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 13, 2022 8:46:25 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 13, 2022 8:46:40 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 13, 2022 8:46:41 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 13, 2022 8:46:49 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 13, 2022 8:46:50 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.13 20:46:56 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:46:56 INFO  time: compiled assignment3 in 0.23s
+2022.11.13 20:46:58 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:46:58 INFO  time: compiled assignment3 in 0.17s
+2022.11.13 20:46:58 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:46:59 INFO  time: compiled assignment3 in 0.14s
+2022.11.13 20:47:00 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:47:00 INFO  time: compiled assignment3 in 0.61s
+2022.11.13 20:47:03 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:47:03 INFO  time: compiled assignment3 in 0.44s
+2022.11.13 20:47:50 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:47:50 INFO  time: compiled assignment3 in 0.65s
+2022.11.13 20:47:57 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:47:57 INFO  time: compiled assignment3 in 0.43s
+2022.11.13 20:48:04 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:48:04 INFO  time: compiled assignment3 in 0.19s
+Nov 13, 2022 8:48:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2471
+2022.11.13 20:48:09 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:48:09 INFO  time: compiled assignment3 in 0.28s
+2022.11.13 20:48:09 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:48:09 INFO  time: compiled assignment3 in 0.11s
+2022.11.13 20:48:12 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:48:12 INFO  time: compiled assignment3 in 0.37s
+2022.11.13 20:48:13 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:48:13 INFO  time: compiled assignment3 in 0.36s
+2022.11.13 20:48:14 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:48:14 INFO  time: compiled assignment3 in 0.17s
+2022.11.13 20:48:19 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:48:19 INFO  time: compiled assignment3 in 0.53s
+2022.11.13 20:48:22 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:48:22 INFO  time: compiled assignment3 in 84ms
+2022.11.13 20:48:23 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:48:23 INFO  time: compiled assignment3 in 0.24s
+2022.11.13 20:48:26 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:48:26 INFO  time: compiled assignment3 in 99ms
+2022.11.13 20:48:29 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:48:29 INFO  time: compiled assignment3 in 0.11s
+2022.11.13 20:48:50 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:48:50 INFO  time: compiled assignment3 in 0.72s
+2022.11.13 20:48:58 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:48:58 INFO  time: compiled assignment3 in 0.2s
+Nov 13, 2022 8:48:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2691
+2022.11.13 20:49:00 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:49:00 INFO  time: compiled assignment3 in 80ms
+2022.11.13 20:49:02 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:49:02 INFO  time: compiled assignment3 in 0.16s
+2022.11.13 20:49:11 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:49:11 INFO  time: compiled assignment3 in 0.48s
+2022.11.13 20:49:31 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:49:31 INFO  time: compiled assignment3 in 0.44s
+2022.11.13 20:49:35 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:49:35 INFO  time: compiled assignment3 in 0.43s
+2022.11.13 20:49:42 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:49:42 INFO  time: compiled assignment3 in 0.5s
+2022.11.13 20:49:43 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:49:43 INFO  time: compiled assignment3 in 0.63s
+2022.11.13 20:49:50 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:49:50 INFO  time: compiled assignment3 in 0.77s
+2022.11.13 20:49:54 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:49:54 INFO  time: compiled assignment3 in 0.58s
+2022.11.13 20:49:55 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:49:55 INFO  time: compiled assignment3 in 0.4s
+Nov 13, 2022 8:49:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2878
+2022.11.13 20:50:04 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:50:04 INFO  time: compiled assignment3 in 0.56s
+2022.11.13 20:50:23 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:50:23 INFO  time: compiled assignment3 in 0.65s
+Nov 13, 2022 8:50:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2926
+Nov 13, 2022 8:50:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2924
+Nov 13, 2022 8:50:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2927
+Nov 13, 2022 8:50:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2928
+Nov 13, 2022 8:50:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2929
+2022.11.13 20:50:26 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:50:26 INFO  time: compiled assignment3 in 0.23s
+2022.11.13 20:50:30 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:50:30 INFO  time: compiled assignment3 in 0.6s
+2022.11.13 20:51:03 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:51:03 INFO  time: compiled assignment3 in 0.68s
+2022.11.13 20:52:26 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:52:26 INFO  time: compiled assignment3 in 0.1s
+2022.11.13 20:52:30 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:52:30 INFO  time: compiled assignment3 in 0.21s
+2022.11.13 20:52:42 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:52:42 INFO  time: compiled assignment3 in 0.22s
+2022.11.13 20:52:42 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:52:43 INFO  time: compiled assignment3 in 0.36s
+2022.11.13 20:52:45 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:52:45 INFO  time: compiled assignment3 in 80ms
+2022.11.13 20:54:40 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:54:40 INFO  time: compiled assignment3 in 91ms
+Nov 13, 2022 8:54:45 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.13 20:54:46 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:54:46 INFO  time: compiled assignment3 in 0.23s
+2022.11.13 20:54:48 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:54:48 INFO  time: compiled assignment3 in 0.26s
+2022.11.13 20:54:58 INFO  compiling assignment3 (1 scala source)
+Nov 13, 2022 8:55:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3202
+2022.11.13 20:55:02 INFO  time: compiled assignment3 in 4s
+2022.11.13 20:55:03 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:55:05 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:55:06 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:55:10 INFO  time: compiled assignment3 in 4.34s
+2022.11.13 20:55:10 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:55:15 INFO  time: compiled assignment3 in 3.86s
+2022.11.13 20:55:15 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:55:16 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:55:17 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:55:17 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:55:18 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:55:21 INFO  time: compiled assignment3 in 2.94s
+2022.11.13 20:57:15 INFO  compiling assignment3 (1 scala source)
+Nov 13, 2022 8:57:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3271
+2022.11.13 20:57:19 INFO  time: compiled assignment3 in 4.64s
+2022.11.13 20:57:20 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 13, 2022 8:57:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2073)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider$$anonfun$1.apply(CompletionProvider.scala:77)
+	at scala.meta.internal.pc.CompletionProvider$$anonfun$1.apply(CompletionProvider.scala:76)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$class.toStream(Iterator.scala:1320)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1334)
+	at scala.collection.Iterator$$anonfun$toStream$1.apply(Iterator.scala:1320)
+	at scala.collection.Iterator$$anonfun$toStream$1.apply(Iterator.scala:1320)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1233)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1223)
+	at scala.collection.immutable.StreamIterator$$anonfun$next$1.apply(Stream.scala:1120)
+	at scala.collection.immutable.StreamIterator$$anonfun$next$1.apply(Stream.scala:1120)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1109)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1109)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1114)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:30)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:157)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:287)
+	at com.google.gson.Gson.toJson(Gson.java:786)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:786)
+	at com.google.gson.Gson.toJson(Gson.java:756)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+2022.11.13 20:57:29 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:57:30 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:57:31 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:57:31 INFO  time: compiled assignment3 in 0.22s
+2022.11.13 20:57:31 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:57:32 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:57:33 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:57:33 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:57:33 INFO  time: compiled assignment3 in 0.17s
+2022.11.13 20:57:34 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:05 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:12 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:12 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:13 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:13 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:14 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:59:14 INFO  time: compiled assignment3 in 0.24s
+2022.11.13 20:59:15 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:15 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:16 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:59:16 INFO  time: compiled assignment3 in 0.12s
+2022.11.13 20:59:16 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:18 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:19 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:20 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:59:20 INFO  time: compiled assignment3 in 0.45s
+2022.11.13 20:59:21 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:22 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:22 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:22 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:23 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:24 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:24 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:24 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:25 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:59:26 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:28 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:29 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:30 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:30 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 20:59:30 INFO  time: compiled assignment3 in 5.07s
+2022.11.13 20:59:32 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:59:32 INFO  time: compiled assignment3 in 0.35s
+Nov 13, 2022 8:59:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3437
+2022.11.13 20:59:34 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:59:34 INFO  time: compiled assignment3 in 0.11s
+2022.11.13 20:59:36 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:59:36 INFO  time: compiled assignment3 in 82ms
+2022.11.13 20:59:44 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:59:44 INFO  time: compiled assignment3 in 0.28s
+Nov 13, 2022 8:59:45 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.13 20:59:46 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:59:46 INFO  time: compiled assignment3 in 0.14s
+Nov 13, 2022 8:59:47 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 13, 2022 8:59:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3512
+2022.11.13 20:59:49 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:59:49 INFO  time: compiled assignment3 in 0.12s
+2022.11.13 20:59:56 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:59:56 INFO  time: compiled assignment3 in 0.55s
+2022.11.13 20:59:59 INFO  compiling assignment3 (1 scala source)
+2022.11.13 20:59:59 INFO  time: compiled assignment3 in 0.13s
+2022.11.13 21:00:03 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:00:03 INFO  time: compiled assignment3 in 0.78s
+2022.11.13 21:00:06 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:00:06 INFO  time: compiled assignment3 in 0.82s
+2022.11.13 21:00:09 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:00:09 INFO  time: compiled assignment3 in 0.81s
+2022.11.13 21:00:29 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:00:33 INFO  time: compiled assignment3 in 3.34s
+Nov 13, 2022 9:00:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3636
+2022.11.13 21:01:16 INFO  compiling assignment3 (1 scala source)
+Nov 13, 2022 9:01:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3644
+2022.11.13 21:01:20 INFO  time: compiled assignment3 in 4.5s
+2022.11.13 21:01:49 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:01:53 INFO  time: compiled assignment3 in 3.38s
+2022.11.13 21:01:55 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:01:58 INFO  time: compiled assignment3 in 3.8s
+2022.11.13 21:01:59 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 21:02:00 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:02:04 INFO  time: compiled assignment3 in 3.88s
+2022.11.13 21:04:23 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:04:26 INFO  time: compiled assignment3 in 3.32s
+2022.11.13 21:04:35 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:04:38 INFO  time: compiled assignment3 in 3.2s
+2022.11.13 21:04:41 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:04:44 INFO  time: compiled assignment3 in 3.83s
+2022.11.13 21:04:46 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:04:49 INFO  time: compiled assignment3 in 2.94s
+2022.11.13 21:05:28 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:05:32 INFO  time: compiled assignment3 in 4.27s
+2022.11.13 21:05:32 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 21:05:34 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 21:05:35 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:05:38 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 21:05:38 INFO  time: compiled assignment3 in 2.98s
+2022.11.13 21:05:38 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:05:41 INFO  time: compiled assignment3 in 2.44s
+2022.11.13 21:07:33 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:07:34 INFO  time: compiled assignment3 in 1.13s
+2022.11.13 21:07:39 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:07:39 INFO  time: compiled assignment3 in 0.61s
+2022.11.13 21:07:45 INFO  compiling assignment3 (1 scala source)
+Nov 13, 2022 9:07:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3854
+2022.11.13 21:07:45 INFO  time: compiled assignment3 in 0.71s
+2022.11.13 21:07:50 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:07:50 INFO  time: compiled assignment3 in 0.65s
+2022.11.13 21:07:52 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:07:52 INFO  time: compiled assignment3 in 0.73s
+2022.11.13 21:07:56 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:07:56 INFO  time: compiled assignment3 in 0.78s
+2022.11.13 21:07:59 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:08:02 INFO  time: compiled assignment3 in 3.15s
+2022.11.13 21:09:12 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:09:16 INFO  time: compiled assignment3 in 4s
+2022.11.13 21:09:22 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:09:26 INFO  time: compiled assignment3 in 3.44s
+2022.11.13 21:09:26 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:09:31 INFO  time: compiled assignment3 in 4.73s
+2022.11.13 21:09:32 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:09:37 INFO  time: compiled assignment3 in 4.59s
+2022.11.13 21:09:37 INFO  compiling assignment3 (1 scala source)
+2022.11.13 21:09:40 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.13 21:09:42 INFO  time: compiled assignment3 in 4.13s

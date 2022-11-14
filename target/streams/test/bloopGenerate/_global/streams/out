@@ -1,4 +1,4 @@
 [debug] [assignment3-test] Classpath dependencies List()
 [debug] [assignment3-test] Dependencies from configurations List(assignment3)
-[debug] Bloop wrote the configuration of project 'assignment3-test' to 'S:\EDU\YR3\Assn3EPL\.bloop\assignment3-test.json'
-[success] Generated .bloop\assignment3-test.json
+[debug] Bloop wrote the configuration of project 'assignment3-test' to '/home/sizzle/EPL/Assn3EPL/.bloop/assignment3-test.json'
+[success] Generated .bloop/assignment3-test.json
