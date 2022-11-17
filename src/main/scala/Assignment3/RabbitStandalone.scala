@@ -143,18 +143,86 @@ object Assignment3Standalone {
 
       case App(e1,e2) => (tyOf(ctx,e1),tyOf(ctx,e2)) match {
         case (FunTy(a,b),c) => if (a == c) {
-          b
+          FunTy(a,b)
         } else {
           sys.error("Argument type does not match fuction input")
         }
         case (a,c) => sys.error("Function type not found!\n" +
             "Typing " + e1.toString + "type is: " + a.toString + "\n" +
             "Typing " + e2.toString + "type is: " + c.toString + "\n")
-
       }
-      //String
-      //Pair
       //Lists
+      case EmptyList(ty) => ListTy(ty)
+      case Cons(e, e2) => (tyOf(ctx,e), tyOf(ctx,e2)) match {
+        case (a, ListTy(b)) => if (a==b){
+          ListTy(a)
+        } else{
+          sys.error("wrong type for list of type t")
+        }
+      }
+      case ListCase(l, e1, x, y, e2) => (tyOf(ctx,l), tyOf(ctx,e1), tyOf(ctx, e2)) match { // TODO: not 100
+        case (ListTy(ty),a,e2ty) => if ((ListTy(ctx(x))==ctx(y))){
+          e2ty
+        }
+        else{
+          sys.error("can't cons different types")
+        }
+      }
+
+      case Seq(e1, e2) => (tyOf(ctx, e1), tyOf(ctx, e2)) match {
+        case (UnitTy, b) => b
+      }
+      
+      //String
+      case Time => SignalTy(IntTy) // might mess everything up
+      case Pure(e) => {
+        val ety = tyOf(ctx, e)
+        if (isSimpleType(ety)){
+          SignalTy(ety)
+        }
+        else{
+          sys.error("non simple type passed to signal")
+        }
+      }
+      case Apply(e1, e2) => (tyOf(ctx,e1), tyOf(ctx,e2)) match{
+        case (FunTy(SignalTy(a), SignalTy(b)),SignalTy(c)) => if (a==c) {SignalTy(b)}
+          else {sys.error("function incorrect")}
+        case _ => sys.error("arguments not a function or incorrect signal type")
+      }
+      case Read(e) => {
+        if (tyOf(ctx,e) == StringTy){
+          SignalTy(StringTy)
+        }
+        else{
+          sys.error("argument not string")
+        }
+      }
+      case MoveXY(x, y, a) => (tyOf(ctx,x), tyOf(ctx,y), tyOf(ctx,a)) match{
+        case (SignalTy(IntTy), SignalTy(IntTy), SignalTy(FrameTy)) => SignalTy(FrameTy)
+        case _ => sys.error("incorrect arguments for movexy")
+      }
+      
+      case Blank => SignalTy(FrameTy)
+      
+      case Over(e1, e2) => (tyOf(ctx,e1), tyOf(ctx,e2)) match{
+        case (SignalTy(FrameTy), SignalTy(FrameTy)) => SignalTy(FrameTy)
+        case _ => sys.error("incorrect arguments for over")
+      }
+      
+      case When(e1,e2,e3) => (tyOf(ctx,e1), tyOf(ctx,e2), tyOf(ctx,e3)) match{
+        case (SignalTy(BoolTy), a,b) => if (a==b){
+          SignalTy(a)
+        }
+        else{
+          sys.error("signal types do not match")
+        }
+        case _ => sys.error("incorrect signals")
+      }
+
+      case SignalBlock(se) => tyOf(ctx,se) match {
+        case (SignalTy(SignalTy(t))) => SignalTy(t)
+      }
+      //Pair
       // END ANSWER
     }
   }
@@ -168,9 +236,109 @@ object Assignment3Standalone {
       // Values
       case v: Value => valueTy(v)
       // BEGIN ANSWER
-      case _ => sys.error("todo")
+      case Plus(e1, e2) => (tyOf(ctx, e1), tyOf(ctx, e2)) match {
+        case (SignalTy(IntTy), SignalTy(IntTy)) => SignalTy(IntTy)
+        case _ => sys.error("non-integer arguments to +")
+      }
+
+      case Minus(e1, e2) => (tyOf(ctx, e1), tyOf(ctx, e2)) match {
+        case (SignalTy(IntTy), SignalTy(IntTy)) => SignalTy(IntTy)
+        case _ => sys.error("non-integer arguments to -")
+      }
+
+      case Times(e1, e2) => (tyOf(ctx,e1), tyOf(ctx,e2)) match {
+        case (SignalTy(IntTy), SignalTy(IntTy)) => SignalTy(IntTy)
+        case _ => sys.error("non-integer arguments to *")
+      }
+
+      case Div(e1, e2) => (tyOf(ctx,e1), tyOf(ctx,e2)) match {
+        case (SignalTy(IntTy), SignalTy(IntTy)) => SignalTy(IntTy)
+        case _ => sys.error("non-integer arguments to /")
+      }
+      
+      //Booleans
+      case Eq(e1, e2) => (tyOf(ctx,e1), tyOf(ctx,e2)) match {
+        case (a,b) => if (a==b&&(a==IntTy||a==BoolTy)){
+          SignalTy(BoolTy)
+        } else {
+          sys.error("types must be same for equality")
+        }
+      }
+      
+      case IfThenElse(e,e1,e2) =>
+      (tyOf(ctx,e),tyOf(ctx,e1),tyOf(ctx,e2)) match {
+        case (BoolTy,a,b) => if (a == b) {
+          SignalTy(a)
+        }
+        else {
+          sys.error("types of branches must be equal")
+        }
+        case (_,a,b) => sys.error("type of conditional must be boolean")
+      }
+      
+      case GreaterThan(e1, e2) => (tyOf(ctx,e1), tyOf(ctx,e2)) match {
+        case (SignalTy(IntTy), SignalTy(IntTy)) => SignalTy(IntTy)
+      }
+
+      case LessThan(e1, e2) => (tyOfSignal(ctx,e1), tyOfSignal(ctx, e2)) match {
+        case (SignalTy(IntTy), SignalTy(IntTy)) => SignalTy(IntTy)
+      }
+
+      case Var(x) => SignalTy(ctx(x))
+
+      //String
+      case Time => SignalTy(IntTy) // might mess everything up
+      case Pure(e) => {
+        val ety = tyOf(ctx, e)
+        if (isSimpleType(ety)){
+          SignalTy(ety)
+        }
+        else{
+          sys.error("non simple type passed to signal")
+        }
+      }
+      case Apply(e1, e2) => (tyOf(ctx,e1), tyOf(ctx,e2)) match{
+        case (SignalTy(FunTy(SignalTy(a), SignalTy(b))), SignalTy(c)) => if (a==c) {SignalTy(b)}
+          else {sys.error("function incorrect")}
+        case _ => sys.error("arguments not a function or incorrect signal type")
+      }
+      case Read(e) => {
+        if (tyOf(ctx,e) == StringTy){
+          SignalTy(StringTy)
+        }
+        else{
+          sys.error("argument not string")
+        }
+      }
+      case MoveXY(x, y, a) => (tyOf(ctx,x), tyOf(ctx,y), tyOf(ctx,a)) match{
+        case (SignalTy(IntTy), SignalTy(IntTy), SignalTy(FrameTy)) => SignalTy(FrameTy)
+        case _ => sys.error("incorrect arguments for movexy")
+      }
+      
+      case Blank => SignalTy(FrameTy)
+      
+      case Over(e1, e2) => (tyOf(ctx,e1), tyOf(ctx,e2)) match{
+        case (SignalTy(FrameTy), SignalTy(FrameTy)) => SignalTy(FrameTy)
+        case _ => sys.error("incorrect arguments for over")
+      }
+      
+      case When(e1,e2,e3) => (tyOf(ctx,e1), tyOf(ctx,e2), tyOf(ctx,e3)) match{
+        case (SignalTy(BoolTy), a,b) => if (a==b){
+          SignalTy(a)
+        }
+        else{
+          sys.error("signal types do not match")
+        }
+        case _ => sys.error("incorrect signals")
+      }
+
+      case SignalBlock(se) => tyOf(ctx,se) match {
+        case (SignalTy(SignalTy(t))) => SignalTy(t)
+      }
+      //Pair
       // END ANSWER
     }
+  
   }
 
   // ----------------------------------------------------------------
@@ -256,7 +424,64 @@ object Assignment3Standalone {
       // Values are closed so substitution has no effect
       case v: Value => v
       // BEGIN ANSWER
-      case _ => sys.error("todo")
+      case Plus(t1,t2) => Plus(subst(t1,e2,x),subst(t2,e2,x))
+      case Minus(t1,t2) => Minus(subst(t1,e2,x),subst(t2,e2,x))
+      case Times(t1,t2) => Times(subst(t1,e2,x),subst(t2,e2,x))
+
+      // Booleans
+      case Eq(t1,t2) => Eq(subst(t1,e2,x),subst(t2,e2,x))
+      case IfThenElse(t0,t1,t2) => IfThenElse(subst(t0,e2,x),subst(t1,e2,x),subst(t2,e2,x))
+
+
+      case Var(y) =>
+        if (x == y) {
+          e2
+        } else {
+          Var(y)
+        }
+      case Let(y,t1,t2) => {
+        val z = Gensym.gensym(y);
+        Let(z,subst(t1,e2,x),subst(swap(t2,y,z),e2,x))
+      }
+
+      // Pairs
+      case Pair(t1,t2) => Pair(subst(t1,e2,x),subst(t2,e2,x))
+      case Fst(t0) => Fst(subst(t0,e2,x))
+      case Snd(t0) => Snd(subst(t0,e2,x))
+
+      // Functions
+      case Lambda(y,ty,t0) => {
+        val z = Gensym.gensym(y);
+        Lambda(z,ty,subst(swap(t0,y,z),e2,x))
+      }
+      case Apply(t1,t2) => Apply(subst(t1,e2,x),subst(t2,e2,x))
+      case Rec(f,y,ty1,ty2,t0) => {
+        val g = Gensym.gensym(f);
+        val z = Gensym.gensym(y);
+        Rec(g,z,ty1,ty2,subst(swap(swap(t0,f,g),y,z),e2,x))
+      }
+
+      // Syntactic sugar
+     case LetPair(y1,y2,t1,t2) => {
+        val y1z = Gensym.gensym(y1);
+        val y2z = Gensym.gensym(y2);
+        LetPair(y1z,y2z,subst(t1,e2,x),
+          subst(swap(swap(t2,y1z,y1), y2z, y2), e2,x))
+      }
+
+      case LetFun(f,y,ty,t1,t2) => {
+        val fz = Gensym.gensym(f);
+        val yz = Gensym.gensym(y);
+        LetFun(fz,yz,ty,subst(swap(t1,yz,y),e2,x),
+          subst(swap(t2,fz,f), e2,x))
+      }
+
+      case LetRec(f,y,ty1,ty2,t1,t2) => {
+        val fz = Gensym.gensym(f);
+        val yz = Gensym.gensym(y);
+        LetRec(fz,yz,ty1,ty2,subst(swap(swap(t1,fz,f),yz,y),e2,x),
+          subst(swap(t2,fz,f), e2,x))
+      }
       // END ANSWER
     }
   }
