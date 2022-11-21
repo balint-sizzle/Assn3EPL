@@ -583,7 +583,7 @@ object Assignment3Standalone {
         Let(xfv, desugar(t1),desugar(t2))
       }
 
-      case SignalBlock(se) => sys.error("todo")
+      case SignalBlock(se) => desugarBlock(se)
       // END ANSWER
     }
   }
@@ -591,12 +591,28 @@ object Assignment3Standalone {
   /****************
    *  Exercise 6  *
    ****************/
+  def handleOther(e: Expr): Expr = e match {
+    case Plus(se1, se2) => Apply(Lambda("x", IntTy, Lambda("y", IntTy, Plus(Var("x"), Var("y")))), Apply(desugarBlock(se1), desugarBlock(se2)))
+    case Minus(se1, se2) => Apply(Lambda("x", IntTy, Lambda("y", IntTy, Minus(Var("x"), Var("y")))), Apply(desugarBlock(se1), desugarBlock(se2)))
+    case Times(se1, se2) => Apply(Lambda("x", IntTy, Lambda("y", IntTy, Times(Var("x"), Var("y")))), Apply(desugarBlock(se1), desugarBlock(se2)))
+    case Div(se1, se2) => Apply(Lambda("x", IntTy, Lambda("y", IntTy, Div(Var("x"), Var("y")))), Apply(desugarBlock(se1), desugarBlock(se2)))
+    case Eq(se1, se2) => Apply(Lambda("x", IntTy, Lambda("y", IntTy, Eq(Var("x"), Var("y")))), Apply(desugarBlock(se1), desugarBlock(se2)))
+    case GreaterThan(se1, se2) => Apply(Lambda("x", IntTy, Lambda("y", IntTy, GreaterThan(Var("x"), Var("y")))), Apply(desugarBlock(se1), desugarBlock(se2)))
+    case LessThan(se1, se2) => Apply(Lambda("x", IntTy, Lambda("y", IntTy, LessThan(Var("x"), Var("y")))), Apply(desugarBlock(se1), desugarBlock(se2)))
+    
+  }
   def desugarBlock(e: Expr): Expr = {
     e match {
       case v: Value => Pure(desugar(v))
 
       // BEGIN ANSWER
-      case _ => sys.error("todo")
+      case Apply(se1, se2) => Apply(desugarBlock(se1), desugarBlock(se2))
+      case IfThenElse(se,se1,se2) => When(desugarBlock(se), desugarBlock(se1), desugarBlock(se2))
+      case Time => Time
+      case Read(e1) => Read(desugar(e1))
+      case MoveXY(se1,se2,se3) => MoveXY(desugarBlock(se1), desugarBlock(se2), desugarBlock(se3))
+      case Escape(se) => desugar(se)
+      case _ => handleOther(e)
       // END ANSWER
     }
   }
