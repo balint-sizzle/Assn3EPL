@@ -8041,3 +8041,848 @@ Caused by: java.lang.NullPointerException
 2022.11.16 14:10:05 WARN  Could not load snapshot text for S:\EDU\YR3\Assn3EPL\src\main\scala\Assignment3\RabbitStandalone.scala
 2022.11.16 14:10:06 INFO  compiling assignment3 (1 scala source)
 2022.11.16 14:10:08 INFO  time: compiled assignment3 in 1.43s
+2022.11.21 11:38:01 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sizzle/EPL/Assn3EPL/.metals/lsp.trace.json or /home/sizzle/.cache/metals/lsp.trace.json
+2022.11.21 11:38:02 INFO  logging to file /home/sizzle/EPL/Assn3EPL/.metals/metals.log
+2022.11.21 11:38:02 INFO  Started: Metals version 0.11.9 in workspace '/home/sizzle/EPL/Assn3EPL' for client Visual Studio Code 1.73.1.
+2022.11.21 11:38:07 INFO  time: initialize in 5.36s
+2022.11.21 11:38:10 INFO  Attempting to connect to the build server...
+2022.11.21 11:38:10 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/sizzle/.bloop/bloop.json
+2022.11.21 11:38:10 ERROR Starting the bsp launcher for bloop...
+2022.11.21 11:38:10 ERROR Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher15741769767997459005/bsp.socket'...
+2022.11.21 11:38:10 ERROR Waiting for the bsp connection to come up...
+2022.11.21 11:38:10 ERROR error: The command bsp --protocol local --socket /tmp/bsp-launcher15741769767997459005/bsp.socket returned with an error
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m Loading 2 projects from '/home/sizzle/EPL/Assn3EPL/.bloop'...
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m Loading project from '/home/sizzle/EPL/Assn3EPL/.bloop/assignment3.json'
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.12.
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m Loading project from '/home/sizzle/EPL/Assn3EPL/.bloop/assignment3-test.json'
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m Elapsed: 11.330343 ms
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar doesn't exist![0m[31m[E][0m Failed to load project from /home/sizzle/EPL/Assn3EPL/.bloop/assignment3.json
+2022.11.21 11:38:10 ERROR > 
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /home/sizzle/EPL/Assn3EPL/.bloop/assignment3.json
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.12.
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:295)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m Caused by: java.lang.RuntimeException: Missing compiler jar in Scala jars /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	scala.sys.package$.error(package.scala:30)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$compilerJar$2(ScalaInstance.scala:46)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	scala.Option.getOrElse(Option.scala:189)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:46)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:180)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:185)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:185)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:311)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:306)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:289)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+2022.11.21 11:38:10 ERROR error: Trying a tcp-based connection to the server instead...
+2022.11.21 11:38:10 ERROR Opening a bsp server connection with 'bsp --protocol tcp --port 34565'...
+2022.11.21 11:38:10 ERROR Waiting for the bsp connection to come up...
+2022.11.21 11:38:10 ERROR error: The command bsp --protocol tcp --port 34565 returned with an error
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m Loading 2 projects from '/home/sizzle/EPL/Assn3EPL/.bloop'...
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m Loading project from '/home/sizzle/EPL/Assn3EPL/.bloop/assignment3-test.json'
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m Loading project from '/home/sizzle/EPL/Assn3EPL/.bloop/assignment3.json'
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.12.
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[33m[W][0m Scala instance jar /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar doesn't exist!
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.11.12.
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m   => /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar
+2022.11.21 11:38:10 ERROR > [0m[32m[D][0m Elapsed: 14.276721 ms
+2022.11.21 11:38:10 ERROR > [0m[31m[E][0m Failed to load project from /home/sizzle/EPL/Assn3EPL/.bloop/assignment3.json
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m bloop.data.Project$ProjectReadException: Failed to load project from /home/sizzle/EPL/Assn3EPL/.bloop/assignment3.json
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:295)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m Caused by: java.lang.RuntimeException: Missing compiler jar in Scala jars /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.12\scala-library-2.11.12.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.11.12\scala-compiler-2.11.12.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.11.12\scala-reflect-2.11.12.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.5\scala-xml_2.11-1.0.5.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar, /home/sizzle/EPL/Assn3EPL/C:\Users\szila\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.3\jline-2.14.3.jar
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	scala.sys.package$.error(package.scala:30)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.$anonfun$compilerJar$2(ScalaInstance.scala:46)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	scala.Option.getOrElse(Option.scala:189)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance.<init>(ScalaInstance.scala:46)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.newInstance$1(ScalaInstance.scala:180)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.$anonfun$apply$7(ScalaInstance.scala:185)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1705)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.ScalaInstance$.apply(ScalaInstance.scala:185)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.data.Project$.$anonfun$fromConfig$1(Project.scala:311)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	scala.Option.flatMap(Option.scala:271)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromConfig(Project.scala:306)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.data.Project$.fromBytesAndOrigin(Project.scala:289)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.loadProject(BuildLoader.scala:248)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	bloop.engine.BuildLoader$.$anonfun$loadBuildIncrementally$3(BuildLoader.scala:59)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:81)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.eval.internal.TaskShift$Register$$anon$1.run(TaskShift.scala:65)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	monix.execution.internal.InterceptRunnable.run(InterceptRunnable.scala:27)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2022.11.21 11:38:10 ERROR > [0m[36m[T][0m 	java.base/java.lang.Thread.run(Thread.java:829)
+2022.11.21 11:38:10 ERROR error: The launcher failed to establish a bsp connection, aborting...
+2022.11.21 11:38:11 ERROR Failed to connect with build server, no functionality will work.java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:92)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:119)
+	at scala.meta.internal.metals.BloopServers$$anon$2.run(BloopServers.scala:496)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+2022.11.21 11:38:11 WARN  no build target for: /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 11:38:11 WARN  no build target for: /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitSyntax.scala
+2022.11.21 11:38:14 INFO  no build target found for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitSyntax.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.11.21 11:38:18 INFO  time: code lens generation in 8.59s
+2022.11.21 11:38:20 INFO  time: code lens generation in 10s
+2022.11.21 11:38:23 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals3816047929814024079/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.11.21 11:38:25 INFO  [info] welcome to sbt 1.7.3 (Ubuntu Java 11.0.17)
+2022.11.21 11:38:29 INFO  [info] loading settings for project assn3epl-build-build from metals.sbt ...
+2022.11.21 11:38:30 INFO  [info] loading project definition from /home/sizzle/EPL/Assn3EPL/project/project
+2022.11.21 11:38:33 INFO  [info] loading settings for project assn3epl-build from metals.sbt ...
+2022.11.21 11:38:33 INFO  [info] loading project definition from /home/sizzle/EPL/Assn3EPL/project
+2022.11.21 11:38:37 INFO  [warn] sbt-bloop-1.5.4-sources.jar no longer exists at /C:/Users/szila/AppData/Local/Coursier/Cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.4/sbt-bloop-1.5.4-sources.jar
+2022.11.21 11:38:37 INFO  [success] Generated .bloop/assn3epl-build.json
+2022.11.21 11:38:37 INFO  [success] Total time: 4 s, completed 21 Nov 2022, 11:38:37
+2022.11.21 11:38:39 INFO  [info] loading settings for project assignment3 from build.sbt ...
+2022.11.21 11:38:39 INFO  [info] set current project to Assignment 3 (in build file:/home/sizzle/EPL/Assn3EPL/)
+2022.11.21 11:38:39 INFO  [warn] scala-library-2.11.12-sources.jar no longer exists at /C:/Users/szila/AppData/Local/Coursier/Cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12-sources.jar
+2022.11.21 11:38:40 INFO  [success] Generated .bloop/assignment3-test.json
+2022.11.21 11:38:40 INFO  [success] Generated .bloop/assignment3.json
+2022.11.21 11:38:40 INFO  [success] Total time: 1 s, completed 21 Nov 2022, 11:38:41
+2022.11.21 11:38:41 INFO  time: ran 'sbt bloopInstall' in 18s
+2022.11.21 11:38:41 INFO  Attempting to connect to the build server...
+2022.11.21 11:38:41 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/sizzle/.bloop/bloop.json
+2022.11.21 11:38:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sizzle/EPL/Assn3EPL/.metals/bsp.trace.json or /home/sizzle/.cache/metals/bsp.trace.json
+2022.11.21 11:38:41 INFO  Attempting to connect to the build server...
+2022.11.21 11:38:41 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/sizzle/.bloop/bloop.json
+2022.11.21 11:38:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sizzle/EPL/Assn3EPL/project/.metals/bsp.trace.json or /home/sizzle/.cache/metals/bsp.trace.json
+2022.11.21 11:38:41 INFO  time: Connected to build server in 0.32s
+2022.11.21 11:38:41 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.21 11:38:41 INFO  time: Imported build in 0.11s
+2022.11.21 11:38:45 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.21 11:38:49 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.21 11:38:49 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.21 11:38:49 INFO  time: indexed workspace in 7.11s
+2022.11.21 11:38:50 INFO  compiling assignment3 (7 scala sources)
+2022.11.21 11:39:39 WARN  there were three feature warnings; re-run with -feature for details
+2022.11.21 11:39:41 INFO  compiling assignment3-test (1 scala source)
+2022.11.21 11:39:43 INFO  time: compiled assignment3 in 52s
+2022.11.21 11:39:51 INFO  time: compiled assignment3-test in 9.95s
+2022.11.21 12:33:45 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 12:33:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 121
+Nov 21, 2022 12:33:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 122
+Nov 21, 2022 12:33:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 125
+Nov 21, 2022 12:33:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 128
+Nov 21, 2022 12:33:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 129
+Nov 21, 2022 12:33:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 135
+2022.11.21 12:33:52 INFO  time: compiled assignment3 in 6.79s
+2022.11.21 12:33:52 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:33:52 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:33:52 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:33:53 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:33:53 INFO  time: compiled assignment3 in 0.76s
+2022.11.21 12:33:53 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:33:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 163
+Nov 21, 2022 12:33:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 164
+2022.11.21 12:33:54 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:33:55 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:33:54 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:33:57 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:33:57 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:33:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 187
+2022.11.21 12:33:58 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:33:59 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:34:00 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:00 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:33:59 INFO  time: compiled assignment3 in 0.86s
+2022.11.21 12:34:01 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:01 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:34:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 206
+2022.11.21 12:34:01 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:34:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 211
+2022.11.21 12:34:03 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:03 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:04 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:04 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:06 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:34:06 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:06 INFO  time: compiled assignment3 in 0.61s
+2022.11.21 12:34:07 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:34:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 244
+2022.11.21 12:34:07 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:08 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:09 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:09 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:10 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:10 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:11 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:34:11 INFO  time: compiled assignment3 in 0.28s
+2022.11.21 12:34:12 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:12 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:13 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:14 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:14 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:34:18 INFO  time: compiled assignment3 in 3.32s
+2022.11.21 12:34:19 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:34:23 INFO  time: compiled assignment3 in 3.74s
+2022.11.21 12:34:24 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:24 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:25 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:26 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:34:26 INFO  time: compiled assignment3 in 0.17s
+2022.11.21 12:34:26 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:29 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:29 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:30 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:31 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:31 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:31 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:31 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:32 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:32 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:32 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:33 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:34 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:35 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:35 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:37 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:37 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:37 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:39 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:39 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:40 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:40 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:41 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:41 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:43 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:43 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:44 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:34:44 INFO  time: compiled assignment3 in 0.56s
+2022.11.21 12:34:45 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:53 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:54 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:54 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:56 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:57 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:57 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:34:58 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:34:58 INFO  time: compiled assignment3 in 0.63s
+2022.11.21 12:34:59 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:00 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:35:01 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:00 INFO  time: compiled assignment3 in 0.42s
+2022.11.21 12:35:01 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:01 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:01 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:03 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:03 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:04 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:35:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 504
+2022.11.21 12:35:06 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:06 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:06 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:06 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:08 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:35:08 INFO  time: compiled assignment3 in 0.39s
+2022.11.21 12:35:09 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:10 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:11 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:11 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:12 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:14 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:14 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:15 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:15 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:17 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:17 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:18 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:35:18 INFO  time: compiled assignment3 in 0.5s
+Nov 21, 2022 12:35:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 604
+2022.11.21 12:35:19 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:20 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:21 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:35:21 INFO  time: compiled assignment3 in 0.34s
+2022.11.21 12:35:21 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:22 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:35:23 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:35:27 INFO  time: compiled assignment3 in 4.12s
+2022.11.21 12:36:37 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:36:40 INFO  time: compiled assignment3 in 3.47s
+2022.11.21 12:36:45 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 12:36:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 696
+Nov 21, 2022 12:36:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 694
+2022.11.21 12:36:48 INFO  time: compiled assignment3 in 3.54s
+2022.11.21 12:36:49 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:36:50 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:36:52 INFO  time: compiled assignment3 in 2.81s
+2022.11.21 12:37:32 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 12:37:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 749
+2022.11.21 12:37:36 INFO  time: compiled assignment3 in 4.12s
+2022.11.21 12:37:37 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:37:38 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:37:38 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:37:39 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:37:39 INFO  time: compiled assignment3 in 0.12s
+2022.11.21 12:37:40 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:37:41 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:37:42 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:37:42 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:37:42 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:37:44 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:37:44 INFO  time: compiled assignment3 in 0.33s
+2022.11.21 12:37:44 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:37:46 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:37:46 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:37:47 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:37:47 INFO  time: compiled assignment3 in 0.41s
+2022.11.21 12:37:48 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:37:50 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:37:50 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:37:51 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:37:51 INFO  time: compiled assignment3 in 0.37s
+2022.11.21 12:37:52 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:37:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 840
+Nov 21, 2022 12:37:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 841
+2022.11.21 12:37:53 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:37:54 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:37:54 INFO  time: compiled assignment3 in 0.42s
+2022.11.21 12:37:55 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:37:55 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:37:55 INFO  time: compiled assignment3 in 0.14s
+2022.11.21 12:37:56 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:37:57 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:37:57 INFO  time: compiled assignment3 in 0.61s
+2022.11.21 12:37:58 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:37:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 871
+2022.11.21 12:37:59 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:38:00 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:38:00 INFO  time: compiled assignment3 in 0.38s
+2022.11.21 12:38:01 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:38:02 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:38:02 INFO  time: compiled assignment3 in 0.54s
+2022.11.21 12:38:03 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:38:03 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:38:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 902
+2022.11.21 12:38:05 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:38:05 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:38:06 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:38:06 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:38:06 INFO  time: compiled assignment3 in 0.55s
+2022.11.21 12:38:07 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:38:08 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:38:08 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:38:10 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:38:11 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:38:11 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:38:12 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:38:13 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:38:14 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:38:15 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:38:15 INFO  time: compiled assignment3 in 0.16s
+2022.11.21 12:38:15 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:38:16 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:38:19 INFO  time: compiled assignment3 in 3.06s
+2022.11.21 12:38:23 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:38:26 INFO  time: compiled assignment3 in 2.97s
+2022.11.21 12:39:02 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:39:05 INFO  time: compiled assignment3 in 3.21s
+2022.11.21 12:39:05 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:39:08 INFO  time: compiled assignment3 in 2.39s
+Nov 21, 2022 12:39:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1049
+2022.11.21 12:39:13 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:39:13 INFO  time: compiled assignment3 in 0.13s
+2022.11.21 12:39:15 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:39:15 INFO  time: compiled assignment3 in 0.11s
+2022.11.21 12:39:22 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:39:22 INFO  time: compiled assignment3 in 0.34s
+2022.11.21 12:39:24 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:39:24 INFO  time: compiled assignment3 in 0.45s
+2022.11.21 12:39:26 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:39:26 INFO  time: compiled assignment3 in 0.32s
+2022.11.21 12:39:28 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 12:39:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1112
+2022.11.21 12:39:32 INFO  time: compiled assignment3 in 3.78s
+2022.11.21 12:39:32 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:39:32 INFO  time: compiled assignment3 in 0.2s
+2022.11.21 12:39:33 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:33 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:34 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:39:34 INFO  time: compiled assignment3 in 0.32s
+2022.11.21 12:39:34 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:35 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:36 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:39:36 INFO  time: compiled assignment3 in 0.12s
+2022.11.21 12:39:36 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:37 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:38 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:39:38 INFO  time: compiled assignment3 in 0.14s
+2022.11.21 12:39:38 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:39 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:39:39 INFO  time: compiled assignment3 in 0.13s
+2022.11.21 12:39:39 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:41 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:42 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:39:42 INFO  time: compiled assignment3 in 0.16s
+2022.11.21 12:39:43 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:44 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:45 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:39:45 INFO  time: compiled assignment3 in 0.1s
+2022.11.21 12:39:45 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:47 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:47 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:39:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1185
+2022.11.21 12:39:48 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:48 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:48 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:49 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:50 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:39:50 INFO  time: compiled assignment3 in 0.33s
+2022.11.21 12:39:51 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:52 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:39:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1215
+2022.11.21 12:39:53 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:53 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:39:53 INFO  time: compiled assignment3 in 0.47s
+2022.11.21 12:39:54 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:55 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:56 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:56 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:56 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:39:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1251
+2022.11.21 12:39:56 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:39:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1256
+2022.11.21 12:39:58 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:39:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1258
+2022.11.21 12:39:58 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:39:58 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:40:00 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:40:00 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:40:01 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:40:01 INFO  time: compiled assignment3 in 0.31s
+2022.11.21 12:40:02 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:40:03 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:40:04 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:40:04 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:40:05 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:40:06 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:40:07 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:40:10 INFO  time: compiled assignment3 in 3.37s
+Nov 21, 2022 12:40:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1315
+2022.11.21 12:40:12 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:40:12 INFO  time: compiled assignment3 in 0.12s
+2022.11.21 12:40:15 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:40:15 INFO  time: compiled assignment3 in 0.13s
+2022.11.21 12:40:17 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:40:17 INFO  time: compiled assignment3 in 0.12s
+2022.11.21 12:40:19 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:40:19 INFO  time: compiled assignment3 in 0.13s
+2022.11.21 12:40:23 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:40:23 INFO  time: compiled assignment3 in 0.14s
+2022.11.21 12:40:26 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:40:26 INFO  time: compiled assignment3 in 0.2s
+2022.11.21 12:40:35 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:40:35 INFO  time: compiled assignment3 in 0.38s
+2022.11.21 12:40:36 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:40:36 INFO  time: compiled assignment3 in 0.28s
+2022.11.21 12:40:38 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:40:38 INFO  time: compiled assignment3 in 0.17s
+2022.11.21 12:40:53 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:40:53 INFO  time: compiled assignment3 in 0.12s
+2022.11.21 12:40:56 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:40:56 INFO  time: compiled assignment3 in 0.37s
+Nov 21, 2022 12:40:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1469
+2022.11.21 12:41:00 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:41:00 INFO  time: compiled assignment3 in 0.38s
+2022.11.21 12:41:04 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:41:04 INFO  time: compiled assignment3 in 0.14s
+Nov 21, 2022 12:41:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1509
+2022.11.21 12:41:11 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:41:11 INFO  time: compiled assignment3 in 0.4s
+2022.11.21 12:41:14 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:41:14 INFO  time: compiled assignment3 in 0.33s
+Nov 21, 2022 12:41:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1576
+Nov 21, 2022 12:41:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1581
+2022.11.21 12:41:20 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:41:20 INFO  time: compiled assignment3 in 0.28s
+2022.11.21 12:41:23 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:41:23 INFO  time: compiled assignment3 in 0.34s
+2022.11.21 12:41:28 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:41:28 INFO  time: compiled assignment3 in 0.29s
+2022.11.21 12:41:34 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:41:34 INFO  time: compiled assignment3 in 0.31s
+2022.11.21 12:41:36 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:41:36 INFO  time: compiled assignment3 in 0.1s
+2022.11.21 12:41:44 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:41:44 INFO  time: compiled assignment3 in 0.3s
+2022.11.21 12:41:48 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:41:48 INFO  time: compiled assignment3 in 0.29s
+2022.11.21 12:41:54 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:41:54 INFO  time: compiled assignment3 in 0.37s
+2022.11.21 12:41:57 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:41:57 INFO  time: compiled assignment3 in 0.32s
+2022.11.21 12:42:11 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:42:11 INFO  time: compiled assignment3 in 0.34s
+2022.11.21 12:42:13 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:42:13 INFO  time: compiled assignment3 in 0.34s
+Nov 21, 2022 12:42:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1764
+2022.11.21 12:42:14 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:42:14 INFO  time: compiled assignment3 in 0.12s
+2022.11.21 12:42:16 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:42:16 INFO  time: compiled assignment3 in 0.11s
+2022.11.21 12:42:22 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:42:22 INFO  time: compiled assignment3 in 0.28s
+2022.11.21 12:42:24 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:42:24 INFO  time: compiled assignment3 in 0.14s
+Nov 21, 2022 12:42:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1813
+2022.11.21 12:42:28 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:42:28 INFO  time: compiled assignment3 in 0.45s
+Nov 21, 2022 12:42:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1829
+2022.11.21 12:42:56 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:42:56 INFO  time: compiled assignment3 in 0.13s
+2022.11.21 12:42:58 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:42:58 INFO  time: compiled assignment3 in 0.11s
+2022.11.21 12:43:05 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:43:05 INFO  time: compiled assignment3 in 0.31s
+2022.11.21 12:43:07 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:43:07 INFO  time: compiled assignment3 in 0.27s
+2022.11.21 12:43:20 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:43:23 INFO  time: compiled assignment3 in 2.96s
+2022.11.21 12:43:23 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:43:48 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:43:49 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:43:52 INFO  time: compiled assignment3 in 2.57s
+Nov 21, 2022 12:43:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1912
+Nov 21, 2022 12:43:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1916
+Nov 21, 2022 12:43:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1917
+2022.11.21 12:43:54 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:43:57 INFO  time: compiled assignment3 in 3.21s
+2022.11.21 12:44:00 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:44:00 INFO  time: compiled assignment3 in 0.12s
+2022.11.21 12:44:00 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:00 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:01 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:02 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:44:02 INFO  time: compiled assignment3 in 0.33s
+2022.11.21 12:44:03 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:03 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:03 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:03 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:05 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:06 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:06 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:44:07 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:06 INFO  time: compiled assignment3 in 0.3s
+2022.11.21 12:44:07 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:08 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:44:08 INFO  time: compiled assignment3 in 0.12s
+2022.11.21 12:44:09 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:09 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:10 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:10 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:10 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:11 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:12 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:13 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:13 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:14 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:44:14 INFO  time: compiled assignment3 in 0.11s
+2022.11.21 12:44:15 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:16 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:17 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:17 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:18 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:44:18 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:21 INFO  time: compiled assignment3 in 2.68s
+2022.11.21 12:44:27 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:44:30 INFO  time: compiled assignment3 in 2.92s
+2022.11.21 12:44:31 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:31 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:32 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:32 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:44:33 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:44:36 INFO  time: compiled assignment3 in 2.4s
+Nov 21, 2022 12:44:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2169
+2022.11.21 12:44:42 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:44:42 INFO  time: compiled assignment3 in 0.12s
+2022.11.21 12:44:44 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:44:44 INFO  time: compiled assignment3 in 0.11s
+2022.11.21 12:44:51 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:44:51 INFO  time: compiled assignment3 in 0.3s
+2022.11.21 12:45:01 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:45:01 INFO  time: compiled assignment3 in 0.66s
+2022.11.21 12:45:11 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:45:11 INFO  time: compiled assignment3 in 0.27s
+2022.11.21 12:45:14 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:45:16 INFO  time: compiled assignment3 in 2.23s
+2022.11.21 12:45:20 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:45:22 INFO  time: compiled assignment3 in 2.27s
+Nov 21, 2022 12:45:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2300
+2022.11.21 12:45:27 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:45:27 INFO  time: compiled assignment3 in 0.12s
+Nov 21, 2022 12:45:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2355
+2022.11.21 12:45:35 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:45:35 INFO  time: compiled assignment3 in 0.28s
+2022.11.21 12:45:42 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:45:42 INFO  time: compiled assignment3 in 0.13s
+2022.11.21 12:45:48 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:45:48 INFO  time: compiled assignment3 in 0.13s
+2022.11.21 12:45:51 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:45:51 INFO  time: compiled assignment3 in 0.11s
+2022.11.21 12:45:54 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:45:54 INFO  time: compiled assignment3 in 0.12s
+2022.11.21 12:45:57 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:45:57 INFO  time: compiled assignment3 in 0.1s
+2022.11.21 12:45:58 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:45:58 INFO  time: compiled assignment3 in 0.13s
+2022.11.21 12:46:01 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:46:01 INFO  time: compiled assignment3 in 0.12s
+2022.11.21 12:46:03 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:46:03 INFO  time: compiled assignment3 in 0.1s
+2022.11.21 12:46:09 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:46:09 INFO  time: compiled assignment3 in 0.3s
+2022.11.21 12:46:11 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:46:11 INFO  time: compiled assignment3 in 0.33s
+Nov 21, 2022 12:46:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2604
+2022.11.21 12:46:14 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:46:14 INFO  time: compiled assignment3 in 0.4s
+2022.11.21 12:46:15 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:46:15 INFO  time: compiled assignment3 in 0.21s
+2022.11.21 12:46:17 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:46:17 INFO  time: compiled assignment3 in 0.36s
+2022.11.21 12:46:21 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:46:21 INFO  time: compiled assignment3 in 0.36s
+Nov 21, 2022 12:46:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2675
+2022.11.21 12:46:24 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:46:24 INFO  time: compiled assignment3 in 0.18s
+Nov 21, 2022 12:46:24 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 12:46:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2736
+Nov 21, 2022 12:46:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2734
+2022.11.21 12:46:33 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:46:33 INFO  time: compiled assignment3 in 0.4s
+2022.11.21 12:46:35 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:46:37 INFO  time: compiled assignment3 in 2.3s
+2022.11.21 12:46:46 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:46:46 INFO  time: compiled assignment3 in 0.12s
+Nov 21, 2022 12:46:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2845
+2022.11.21 12:46:51 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:46:51 INFO  time: compiled assignment3 in 0.29s
+2022.11.21 12:46:58 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:46:58 INFO  time: compiled assignment3 in 0.23s
+2022.11.21 12:47:01 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:47:01 INFO  time: compiled assignment3 in 0.28s
+2022.11.21 12:47:04 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:47:04 INFO  time: compiled assignment3 in 0.12s
+2022.11.21 12:47:07 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:47:10 INFO  time: compiled assignment3 in 2.6s
+2022.11.21 12:47:16 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:47:16 INFO  time: compiled assignment3 in 0.11s
+2022.11.21 12:47:16 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:47:21 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.21 12:47:23 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:24 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:25 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:47:25 INFO  time: compiled assignment3 in 0.12s
+2022.11.21 12:47:25 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:29 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:29 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:30 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:31 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:32 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:32 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:33 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:47:33 INFO  time: compiled assignment3 in 0.25s
+2022.11.21 12:47:33 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:35 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:47:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3095
+Nov 21, 2022 12:47:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3100
+Nov 21, 2022 12:47:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3096
+2022.11.21 12:47:35 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:36 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:47:36 INFO  time: compiled assignment3 in 0.29s
+2022.11.21 12:47:36 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:38 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:39 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:39 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:41 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:47:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3132
+Nov 21, 2022 12:47:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3134
+2022.11.21 12:47:41 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:42 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:43 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:47:43 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:43 INFO  time: compiled assignment3 in 0.3s
+2022.11.21 12:47:43 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:43 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:44 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:47:44 INFO  time: compiled assignment3 in 0.35s
+2022.11.21 12:47:45 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:47:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3175
+2022.11.21 12:47:46 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 12:47:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3180
+2022.11.21 12:47:46 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:47 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:48 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:49 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:50 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:50 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:51 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:51 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:52 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:54 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:54 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:55 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:47:55 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:55 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:57 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 12:47:58 INFO  time: compiled assignment3 in 2.66s
+2022.11.21 12:47:58 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:47:58 INFO  time: compiled assignment3 in 94ms
+Nov 21, 2022 12:47:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3293
+2022.11.21 12:48:01 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:48:01 INFO  time: compiled assignment3 in 0.14s
+2022.11.21 12:48:03 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:48:03 INFO  time: compiled assignment3 in 0.1s
+2022.11.21 12:48:11 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:48:11 INFO  time: compiled assignment3 in 0.3s
+2022.11.21 12:48:18 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:48:18 INFO  time: compiled assignment3 in 0.34s
+2022.11.21 12:48:21 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:48:21 INFO  time: compiled assignment3 in 0.27s
+2022.11.21 12:48:23 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:48:23 INFO  time: compiled assignment3 in 0.12s
+Nov 21, 2022 12:48:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3438
+2022.11.21 12:48:27 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:48:29 INFO  time: compiled assignment3 in 2.25s
+Nov 21, 2022 12:48:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3450
+Nov 21, 2022 12:49:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

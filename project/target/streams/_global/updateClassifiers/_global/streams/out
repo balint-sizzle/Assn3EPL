@@ -1,4 +1,4 @@
-[warn] sbt-bloop-1.5.4-sources.jar no longer exists at \home\sizzle\.cache\coursier\v1\https\repo1.maven.org\maven2\ch\epfl\scala\sbt-bloop_2.12_1.0\1.5.4\sbt-bloop-1.5.4-sources.jar
+[warn] sbt-bloop-1.5.4-sources.jar no longer exists at /C:/Users/szila/AppData/Local/Coursier/Cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.4/sbt-bloop-1.5.4-sources.jar
 [debug] not up to date. inChanged = false, force = false
-[debug] Updating ProjectRef(uri("file:/S:/EDU/YR3/Assn3EPL/project/"), "assn3epl-build")...
-[debug] Done updating ProjectRef(uri("file:/S:/EDU/YR3/Assn3EPL/project/"), "assn3epl-build")
+[debug] Updating ProjectRef(uri("file:/home/sizzle/EPL/Assn3EPL/project/"), "assn3epl-build")...
+[debug] Done updating ProjectRef(uri("file:/home/sizzle/EPL/Assn3EPL/project/"), "assn3epl-build")

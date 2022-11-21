@@ -427,23 +427,43 @@ object Assignment3Standalone {
       case Plus(t1,t2) => Plus(subst(t1,e2,x),subst(t2,e2,x))
       case Minus(t1,t2) => Minus(subst(t1,e2,x),subst(t2,e2,x))
       case Times(t1,t2) => Times(subst(t1,e2,x),subst(t2,e2,x))
-
+      case Div(t1,t2) => Div(subst(t1,e2,x), subst(t2,e2,x))
       // Booleans
       case Eq(t1,t2) => Eq(subst(t1,e2,x),subst(t2,e2,x))
       case IfThenElse(t0,t1,t2) => IfThenElse(subst(t0,e2,x),subst(t1,e2,x),subst(t2,e2,x))
-
-
+      case GreaterThan(t1,t2) => GreaterThan(subst(t1,e2,x), subst(t2,e2,x))
+      case LessThan(t1,t2) => LessThan(subst(t1,e2,x), subst(t2,e2,x))
       case Var(y) =>
         if (x == y) {
           e2
         } else {
           Var(y)
         }
-      case Let(y,t1,t2) => {
-        val z = Gensym.gensym(y);
-        Let(z,subst(t1,e2,x),subst(swap(t2,y,z),e2,x))
-      }
-
+        case Let(y,t1,t2) => {
+          val z = Gensym.gensym(y);
+          Let(z,subst(t1,e2,x),subst(swap(t2,y,z),e2,x))
+        }
+        
+        case LetFun(f,y,ty,t1,t2) => {
+          val fz = Gensym.gensym(f);
+          val yz = Gensym.gensym(y);
+          LetFun(fz,yz,ty,subst(swap(t1,yz,y),e2,x),
+          subst(swap(t2,fz,f), e2,x))
+        }
+        
+        case LetRec(f,y,ty1,ty2,t1,t2) => {
+          val fz = Gensym.gensym(f);
+          val yz = Gensym.gensym(y);
+          LetRec(fz,yz,ty1,ty2,subst(swap(swap(t1,fz,f),yz,y),e2,x),
+          subst(swap(t2,fz,f), e2,x))
+        }
+        case LetPair(y1,y2,t1,t2) => {
+           val y1z = Gensym.gensym(y1);
+           val y2z = Gensym.gensym(y2);
+           LetPair(y1z,y2z,subst(t1,e2,x),
+             subst(swap(swap(t2,y1z,y1), y2z, y2), e2,x))
+         }
+        
       // Pairs
       case Pair(t1,t2) => Pair(subst(t1,e2,x),subst(t2,e2,x))
       case Fst(t0) => Fst(subst(t0,e2,x))
@@ -454,34 +474,36 @@ object Assignment3Standalone {
         val z = Gensym.gensym(y);
         Lambda(z,ty,subst(swap(t0,y,z),e2,x))
       }
-      case Apply(t1,t2) => Apply(subst(t1,e2,x),subst(t2,e2,x))
       case Rec(f,y,ty1,ty2,t0) => {
         val g = Gensym.gensym(f);
         val z = Gensym.gensym(y);
         Rec(g,z,ty1,ty2,subst(swap(swap(t0,f,g),y,z),e2,x))
       }
-
-      // Syntactic sugar
-     case LetPair(y1,y2,t1,t2) => {
-        val y1z = Gensym.gensym(y1);
-        val y2z = Gensym.gensym(y2);
-        LetPair(y1z,y2z,subst(t1,e2,x),
-          subst(swap(swap(t2,y1z,y1), y2z, y2), e2,x))
+      case App(t1, t2) => App(subst(t1,e2,x), subst(t2,e2,x))
+      
+      //Lists
+      case EmptyList(ty) => EmptyList(ty)
+      case Cons(t1,t2) => Cons(subst(t1,e2,x), subst(t2,e2,x))
+      case ListCase(l,t1,x,y,t2) =>{
+        val w = Gensym.gensym(x)
+        val z = Gensym.gensym(y)
+        ListCase(subst(l,e2,x), subst(swap(swap(t1,x,w),y,z),e2,x),w,z,subst(swap(swap(t2,x,w),y,z),e2,x))
       }
 
-      case LetFun(f,y,ty,t1,t2) => {
-        val fz = Gensym.gensym(f);
-        val yz = Gensym.gensym(y);
-        LetFun(fz,yz,ty,subst(swap(t1,yz,y),e2,x),
-          subst(swap(t2,fz,f), e2,x))
-      }
+      //Sequencing
+      case Seq(t1,t2) => Seq(subst(t1,e2,x), subst(t2,e2,x))
 
-      case LetRec(f,y,ty1,ty2,t1,t2) => {
-        val fz = Gensym.gensym(f);
-        val yz = Gensym.gensym(y);
-        LetRec(fz,yz,ty1,ty2,subst(swap(swap(t1,fz,f),yz,y),e2,x),
-          subst(swap(t2,fz,f), e2,x))
-      }
+      //Signals
+      case Time => Time
+      case Pure(t0) => Pure(subst(t0,e2,x))
+      case Apply(t1,t2) => Apply(subst(t1,e2,x),subst(t2,e2,x))
+      case Read(t0) => Read(subst(t0,e2,x))
+      case MoveXY(t0,t1,t2) => MoveXY(subst(t0,e2,x), subst(t1,e2,x), subst(t2,e2,x))
+      case Blank => Blank
+      case Over(t1,t2) => Over(subst(t1,e2,x), subst(t2,e2,x))
+      case When(t0,t1,t2) => When(subst(t0,e2,x),subst(t1,e2,x),subst(t2,e2,x))
+      case Escape(t0) => Escape(subst(t0,e2,x))
+
       // END ANSWER
     }
   }
