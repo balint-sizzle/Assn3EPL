@@ -8886,3 +8886,1669 @@ Nov 21, 2022 12:48:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancella
 WARNING: Unmatched cancel notification for request id 3450
 Nov 21, 2022 12:49:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2022.11.21 12:54:42 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:54:42 INFO  time: compiled assignment3 in 0.21s
+2022.11.21 12:54:46 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:54:46 INFO  time: compiled assignment3 in 0.16s
+2022.11.21 12:54:50 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:54:50 INFO  time: compiled assignment3 in 0.1s
+2022.11.21 12:54:52 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:54:52 INFO  time: compiled assignment3 in 0.12s
+Nov 21, 2022 12:54:58 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 12:54:58 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 12:55:04 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 12:55:06 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.21 12:55:10 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:55:10 INFO  time: compiled assignment3 in 0.15s
+2022.11.21 12:55:15 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:55:15 INFO  time: compiled assignment3 in 0.14s
+2022.11.21 12:55:21 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:55:21 INFO  time: compiled assignment3 in 0.14s
+2022.11.21 12:55:23 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:55:23 INFO  time: compiled assignment3 in 0.11s
+2022.11.21 12:55:26 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:55:26 INFO  time: compiled assignment3 in 0.13s
+Nov 21, 2022 12:55:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3645
+2022.11.21 12:55:29 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:55:29 INFO  time: compiled assignment3 in 0.1s
+2022.11.21 12:55:34 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:55:34 INFO  time: compiled assignment3 in 0.11s
+2022.11.21 12:56:03 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:56:03 INFO  time: compiled assignment3 in 0.16s
+2022.11.21 12:56:10 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:56:10 INFO  time: compiled assignment3 in 0.13s
+Nov 21, 2022 12:56:12 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.21 12:56:14 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:56:14 INFO  time: compiled assignment3 in 0.14s
+Nov 21, 2022 12:56:16 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.21 12:56:18 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:56:18 INFO  time: compiled assignment3 in 0.19s
+Nov 21, 2022 12:56:23 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 12:56:30 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.21 12:56:32 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:56:32 INFO  time: compiled assignment3 in 0.21s
+Nov 21, 2022 12:56:32 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.21 12:57:58 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:57:58 INFO  time: compiled assignment3 in 0.45s
+2022.11.21 12:58:00 INFO  compiling assignment3 (1 scala source)
+2022.11.21 12:58:00 INFO  time: compiled assignment3 in 0.35s
+2022.11.21 13:11:44 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:11:44 INFO  time: compiled assignment3 in 0.17s
+2022.11.21 13:11:47 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:11:47 INFO  time: compiled assignment3 in 0.4s
+Nov 21, 2022 1:11:47 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.21 13:11:52 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:11:52 INFO  time: compiled assignment3 in 0.14s
+Nov 21, 2022 1:11:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3876
+2022.11.21 13:11:57 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:11:57 INFO  time: compiled assignment3 in 0.15s
+2022.11.21 13:11:59 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:11:59 INFO  time: compiled assignment3 in 0.11s
+2022.11.21 13:12:09 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:12:09 INFO  time: compiled assignment3 in 0.32s
+2022.11.21 13:12:21 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:12:21 INFO  time: compiled assignment3 in 0.17s
+Nov 21, 2022 1:12:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3930
+2022.11.21 13:12:23 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:12:23 INFO  time: compiled assignment3 in 0.14s
+Nov 21, 2022 1:12:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3941
+2022.11.21 13:12:31 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:12:31 INFO  time: compiled assignment3 in 0.14s
+2022.11.21 13:12:32 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:12:32 INFO  time: compiled assignment3 in 0.32s
+Nov 21, 2022 1:12:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3969
+2022.11.21 13:12:33 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:12:33 INFO  time: compiled assignment3 in 0.28s
+2022.11.21 13:13:55 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:13:55 INFO  time: compiled assignment3 in 0.35s
+2022.11.21 13:13:58 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:13:58 INFO  time: compiled assignment3 in 0.18s
+2022.11.21 13:14:07 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:14:07 INFO  time: compiled assignment3 in 0.41s
+2022.11.21 13:14:13 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:14:13 INFO  time: compiled assignment3 in 0.21s
+2022.11.21 13:14:33 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:14:33 INFO  time: compiled assignment3 in 0.37s
+2022.11.21 13:14:37 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:14:37 INFO  time: compiled assignment3 in 0.54s
+2022.11.21 13:14:41 INFO  compiling assignment3 (1 scala source)
+something's wrong: no file:///home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala in List[<error>]RangePosition(file:///home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala, 17388, 17388, 17402)
+2022.11.21 13:14:41 INFO  time: compiled assignment3 in 0.85s
+something's wrong: no file:///home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala in List[<error>]RangePosition(file:///home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala, 17388, 17388, 17395)
+something's wrong: no file:///home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala in List[String]RangePosition(file:///home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala, 17388, 17388, 17400)
+something's wrong: no file:///home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala in List[String]RangePosition(file:///home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala, 17388, 17388, 17400)
+something's wrong: no file:///home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala in List[String]RangePosition(file:///home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala, 17388, 17388, 17400)
+2022.11.21 13:14:44 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:14:44 INFO  time: compiled assignment3 in 0.26s
+2022.11.21 13:14:50 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:14:50 INFO  time: compiled assignment3 in 0.33s
+2022.11.21 13:15:02 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:15:02 INFO  time: compiled assignment3 in 0.38s
+Nov 21, 2022 1:15:39 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:15:40 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:15:41 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:15:43 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.21 13:16:01 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:16:01 INFO  time: compiled assignment3 in 0.18s
+2022.11.21 13:16:08 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:16:08 INFO  time: compiled assignment3 in 0.14s
+Nov 21, 2022 1:16:10 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:16:11 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.21 13:16:13 INFO  file:///home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala:518:11: stale bloop error: ':' expected but ')' found.
+  def FV(x): List[String] = x match {
+          ^
+2022.11.21 13:16:13 INFO  file:///home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala:842:1: stale bloop error: identifier expected but '}' found.
+}
+^
+2022.11.21 13:16:13 INFO  file:///home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala:518:11: stale bloop error: ':' expected but ')' found.
+  def FV(x): List[String] = x match {
+          ^
+2022.11.21 13:16:13 INFO  file:///home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala:842:1: stale bloop error: identifier expected but '}' found.
+}
+^
+2022.11.21 13:16:14 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:16:14 INFO  time: compiled assignment3 in 0.14s
+Nov 21, 2022 1:16:14 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:16:15 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:16:16 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:16:46 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:16:46 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:16:47 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:16:47 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:16:49 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.21 13:16:49 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:16:49 INFO  time: compiled assignment3 in 0.17s
+2022.11.21 13:16:55 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:16:55 INFO  time: compiled assignment3 in 0.42s
+2022.11.21 13:17:02 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:17:02 INFO  time: compiled assignment3 in 0.36s
+2022.11.21 13:17:04 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:17:04 INFO  time: compiled assignment3 in 0.32s
+2022.11.21 13:17:07 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:17:07 INFO  time: compiled assignment3 in 0.14s
+2022.11.21 13:17:16 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:17:16 INFO  time: compiled assignment3 in 0.15s
+Nov 21, 2022 1:17:20 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:17:20 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.21 13:17:22 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:17:22 INFO  time: compiled assignment3 in 41ms
+2022.11.21 13:17:32 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:17:32 INFO  time: compiled assignment3 in 0.34s
+2022.11.21 13:17:37 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:17:37 INFO  time: compiled assignment3 in 0.32s
+Nov 21, 2022 1:17:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4492
+2022.11.21 13:17:39 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:17:39 INFO  time: compiled assignment3 in 0.14s
+2022.11.21 13:17:42 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:17:42 INFO  time: compiled assignment3 in 0.11s
+2022.11.21 13:17:44 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:17:44 INFO  time: compiled assignment3 in 0.28s
+2022.11.21 13:17:45 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:17:45 INFO  time: compiled assignment3 in 0.27s
+2022.11.21 13:21:35 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals16182494812098537799/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.11.21 13:21:38 INFO  [info] welcome to sbt 1.7.3 (Ubuntu Java 11.0.17)
+2022.11.21 13:21:40 INFO  [info] loading settings for project assn3epl-build-build from metals.sbt ...
+2022.11.21 13:21:41 INFO  [info] loading project definition from /home/sizzle/EPL/Assn3EPL/project/project
+2022.11.21 13:21:43 INFO  [info] loading settings for project assn3epl-build from metals.sbt ...
+2022.11.21 13:21:43 INFO  [info] loading project definition from /home/sizzle/EPL/Assn3EPL/project
+2022.11.21 13:21:47 INFO  [success] Generated .bloop/assn3epl-build.json
+2022.11.21 13:21:47 INFO  [success] Total time: 4 s, completed 21 Nov 2022, 13:21:48
+2022.11.21 13:21:47 INFO  [info] loading settings for project assignment3 from build.sbt ...
+2022.11.21 13:21:48 INFO  [info] set current project to Assignment 3 (in build file:/home/sizzle/EPL/Assn3EPL/)
+2022.11.21 13:21:48 INFO  [success] Generated .bloop/assignment3-test.json
+2022.11.21 13:21:48 INFO  [success] Generated .bloop/assignment3.json
+2022.11.21 13:21:48 INFO  [success] Total time: 0 s, completed 21 Nov 2022, 13:21:49
+2022.11.21 13:21:50 INFO  time: ran 'sbt bloopInstall' in 14s
+2022.11.21 13:21:50 INFO  Disconnecting from Bloop session...
+2022.11.21 13:21:50 INFO  Shut down connection with build server.
+2022.11.21 13:21:50 INFO  Shut down connection with build server.
+2022.11.21 13:21:50 INFO  Attempting to connect to the build server...
+2022.11.21 13:21:50 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/sizzle/.bloop/bloop.json
+2022.11.21 13:21:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sizzle/EPL/Assn3EPL/.metals/bsp.trace.json or /home/sizzle/.cache/metals/bsp.trace.json
+2022.11.21 13:21:50 INFO  Attempting to connect to the build server...
+2022.11.21 13:21:50 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/sizzle/.bloop/bloop.json
+2022.11.21 13:21:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sizzle/EPL/Assn3EPL/project/.metals/bsp.trace.json or /home/sizzle/.cache/metals/bsp.trace.json
+2022.11.21 13:21:50 INFO  time: Connected to build server in 0.21s
+2022.11.21 13:21:50 INFO  Connected to Build server: Bloop v1.5.4
+2022.11.21 13:21:52 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.21 13:21:52 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.21 13:21:52 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.11.21 13:21:52 INFO  time: indexed workspace in 2.76s
+Nov 21, 2022 1:22:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5136
+Nov 21, 2022 1:22:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5199
+Nov 21, 2022 1:22:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5211
+2022.11.21 13:23:04 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:23:04 INFO  Deduplicating compilation of assignment3 from bsp client 'Metals 0.11.9' (since 1m 14.135s)
+2022.11.21 13:23:04 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:23:05 INFO  time: compiled assignment3 in 1s
+Nov 21, 2022 1:23:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5246
+Nov 21, 2022 1:23:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5247
+Nov 21, 2022 1:23:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5251
+2022.11.21 13:23:08 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:23:08 INFO  time: compiled assignment3 in 90ms
+Nov 21, 2022 1:23:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5267
+Nov 21, 2022 1:23:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5275
+Nov 21, 2022 1:23:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5278
+Nov 21, 2022 1:23:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5273
+Nov 21, 2022 1:23:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5276
+Nov 21, 2022 1:23:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5277
+Nov 21, 2022 1:23:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5280
+Nov 21, 2022 1:23:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5281
+Nov 21, 2022 1:23:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5282
+Nov 21, 2022 1:23:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5283
+Nov 21, 2022 1:23:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5284
+Nov 21, 2022 1:23:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5290
+2022.11.21 13:23:14 INFO  time: code lens generation in 1.06s
+2022.11.21 13:23:15 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:23:15 INFO  time: compiled assignment3 in 0.74s
+Nov 21, 2022 1:23:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5302
+2022.11.21 13:25:03 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:25:03 INFO  time: compiled assignment3 in 0.54s
+Nov 21, 2022 1:25:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5358
+Nov 21, 2022 1:25:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5356
+Nov 21, 2022 1:25:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5357
+2022.11.21 13:25:08 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:25:08 INFO  time: compiled assignment3 in 0.56s
+2022.11.21 13:25:09 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:25:10 INFO  time: compiled assignment3 in 1.18s
+Nov 21, 2022 1:25:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5371
+Nov 21, 2022 1:25:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5382
+2022.11.21 13:25:19 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:25:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5386
+2022.11.21 13:25:19 INFO  time: compiled assignment3 in 0.71s
+Nov 21, 2022 1:25:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5397
+Nov 21, 2022 1:25:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5399
+Nov 21, 2022 1:25:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5402
+2022.11.21 13:25:25 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:25:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5406
+2022.11.21 13:25:25 INFO  time: compiled assignment3 in 0.82s
+2022.11.21 13:25:27 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:25:27 INFO  time: compiled assignment3 in 0.89s
+2022.11.21 13:25:28 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:25:29 INFO  time: compiled assignment3 in 1.01s
+Nov 21, 2022 1:25:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5421
+2022.11.21 13:25:32 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:25:32 INFO  time: compiled assignment3 in 0.66s
+Nov 21, 2022 1:25:32 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:25:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5436
+2022.11.21 13:25:37 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:25:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5438
+2022.11.21 13:25:42 INFO  time: compiled assignment3 in 4.96s
+2022.11.21 13:25:43 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:25:43 INFO  time: compiled assignment3 in 0.27s
+Nov 21, 2022 1:25:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5454
+Nov 21, 2022 1:25:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5451
+Nov 21, 2022 1:25:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5455
+Nov 21, 2022 1:25:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5459
+Nov 21, 2022 1:25:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5460
+Nov 21, 2022 1:25:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5461
+Nov 21, 2022 1:25:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5463
+Nov 21, 2022 1:25:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5462
+2022.11.21 13:25:48 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:25:48 INFO  time: compiled assignment3 in 0.14s
+2022.11.21 13:25:49 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:25:49 INFO  time: compiled assignment3 in 0.41s
+Nov 21, 2022 1:25:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5476
+Nov 21, 2022 1:25:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5474
+Nov 21, 2022 1:25:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5475
+Nov 21, 2022 1:25:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5483
+Nov 21, 2022 1:25:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5481
+Nov 21, 2022 1:25:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5477
+Nov 21, 2022 1:25:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5479
+Nov 21, 2022 1:25:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5482
+Nov 21, 2022 1:25:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5489
+2022.11.21 13:25:57 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:25:57 INFO  time: compiled assignment3 in 0.8s
+2022.11.21 13:26:02 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:08 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:13 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:17 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:20 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:24 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:31 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:26:32 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.21 13:26:35 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:37 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:38 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:39 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:39 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:40 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:41 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:41 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:43 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:43 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:45 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:26:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5637
+2022.11.21 13:26:46 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:47 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:48 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:48 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:49 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:50 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:51 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:26:54 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:27:02 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:27:07 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:27:07 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:27:09 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.21 13:27:10 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:27:11 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:27:23 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:27:28 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:27:30 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:27:35 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:27:37 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:27:46 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.21 13:27:51 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:27:52 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:27:53 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:27:53 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:27:54 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:28:43 INFO  Deduplicating compilation of assignment3 from bsp client 'Metals 0.11.9' (since 6m 53.453s)
+2022.11.21 13:28:43 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:28:43 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:28:44 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:28:45 INFO  time: compiled assignment3 in 2.09s
+2022.11.21 13:28:45 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:28:51 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:29:17 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:29:22 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:29:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5772
+Nov 21, 2022 1:29:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5769
+Nov 21, 2022 1:29:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5770
+2022.11.21 13:29:22 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:29:22 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:29:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5771
+Nov 21, 2022 1:29:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5773
+Nov 21, 2022 1:29:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5774
+Nov 21, 2022 1:29:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5783
+Nov 21, 2022 1:29:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5784
+2022.11.21 13:29:24 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:29:25 INFO  time: compiled assignment3 in 1.05s
+Nov 21, 2022 1:29:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5789
+2022.11.21 13:29:28 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:29:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5790
+Nov 21, 2022 1:29:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5791
+Nov 21, 2022 1:29:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5792
+2022.11.21 13:29:28 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:29:28 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:29:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5797
+Nov 21, 2022 1:29:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5801
+2022.11.21 13:29:28 INFO  time: compiled assignment3 in 0.98s
+2022.11.21 13:29:31 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:29:34 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:29:37 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:29:38 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:29:37 INFO  time: compiled assignment3 in 0.86s
+2022.11.21 13:29:41 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:29:51 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:30:51 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:31:06 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:31:07 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:31:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5822
+2022.11.21 13:31:08 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:31:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5827
+Nov 21, 2022 1:31:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5823
+2022.11.21 13:31:11 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:31:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5831
+2022.11.21 13:31:11 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:31:11 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:31:11 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:31:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5828
+Nov 21, 2022 1:31:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5832
+Nov 21, 2022 1:31:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5833
+Nov 21, 2022 1:31:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5835
+Nov 21, 2022 1:31:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5837
+Nov 21, 2022 1:31:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5840
+Nov 21, 2022 1:31:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5841
+Nov 21, 2022 1:31:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5842
+2022.11.21 13:31:12 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:31:12 INFO  time: compiled assignment3 in 0.28s
+Nov 21, 2022 1:31:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5847
+2022.11.21 13:31:13 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:31:14 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:31:17 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:31:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5861
+2022.11.21 13:31:17 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:31:19 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:31:20 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:31:24 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.11.21 13:31:24 INFO  time: compiled assignment3 in 6.71s
+Nov 21, 2022 1:31:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5879
+Nov 21, 2022 1:31:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5878
+Nov 21, 2022 1:31:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5885
+Nov 21, 2022 1:31:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5887
+Nov 21, 2022 1:31:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5886
+Nov 21, 2022 1:31:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5875
+Nov 21, 2022 1:31:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5874
+Nov 21, 2022 1:31:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5881
+2022.11.21 13:31:31 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:31:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5893
+Nov 21, 2022 1:31:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5894
+Nov 21, 2022 1:31:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5895
+2022.11.21 13:31:39 INFO  time: compiled assignment3 in 7.92s
+Nov 21, 2022 1:31:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5903
+2022.11.21 13:31:41 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:31:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5907
+Nov 21, 2022 1:31:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5908
+2022.11.21 13:31:41 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:31:44 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:31:50 INFO  time: compiled assignment3 in 8.84s
+Nov 21, 2022 1:32:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.11.21 13:34:15 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:34:15 INFO  time: compiled assignment3 in 0.49s
+Nov 21, 2022 1:34:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5952
+2022.11.21 13:34:20 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:34:21 INFO  time: compiled assignment3 in 1.3s
+Nov 21, 2022 1:34:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5957
+Nov 21, 2022 1:34:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5955
+Nov 21, 2022 1:34:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5953
+Nov 21, 2022 1:34:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5954
+2022.11.21 13:34:25 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:34:25 INFO  time: compiled assignment3 in 0.43s
+Nov 21, 2022 1:34:28 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.11.21 13:34:39 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:34:39 INFO  time: compiled assignment3 in 0.78s
+Nov 21, 2022 1:34:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5982
+Nov 21, 2022 1:34:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5983
+Nov 21, 2022 1:34:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.InterruptedException
+java.util.concurrent.CompletionException: java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2073)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:42)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider$$anonfun$1.apply(CompletionProvider.scala:77)
+	at scala.meta.internal.pc.CompletionProvider$$anonfun$1.apply(CompletionProvider.scala:76)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$class.toStream(Iterator.scala:1320)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1334)
+	at scala.collection.Iterator$$anonfun$toStream$1.apply(Iterator.scala:1320)
+	at scala.collection.Iterator$$anonfun$toStream$1.apply(Iterator.scala:1320)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1233)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1223)
+	at scala.collection.immutable.StreamIterator$$anonfun$next$1.apply(Stream.scala:1120)
+	at scala.collection.immutable.StreamIterator$$anonfun$next$1.apply(Stream.scala:1120)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1109)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1109)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1114)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:30)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:134)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.CollectionTypeAdapter.write(CollectionTypeAdapter.java:40)
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(TypeAdapterRuntimeTypeWrapper.java:69)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.write(ReflectiveTypeAdapterFactory.java:157)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(ReflectiveTypeAdapterFactory.java:287)
+	at com.google.gson.Gson.toJson(Gson.java:786)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:423)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.write(MessageTypeAdapter.java:55)
+	at com.google.gson.Gson.toJson(Gson.java:786)
+	at com.google.gson.Gson.toJson(Gson.java:756)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:145)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.serialize(MessageJsonHandler.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:59)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.lambda$handleRequest$1(RemoteEndpoint.java:281)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	... 8 more
+
+2022.11.21 13:34:46 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:34:53 INFO  time: compiled assignment3 in 7.28s
+Nov 21, 2022 1:34:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5996
+2022.11.21 13:34:54 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:34:54 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:34:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5999
+2022.11.21 13:34:54 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:34:54 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:34:54 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:34:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5997
+Nov 21, 2022 1:34:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6001
+Nov 21, 2022 1:34:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6002
+Nov 21, 2022 1:34:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6004
+Nov 21, 2022 1:34:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6009
+Nov 21, 2022 1:34:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6010
+Nov 21, 2022 1:34:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6011
+Nov 21, 2022 1:34:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6012
+2022.11.21 13:34:55 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:34:55 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:34:55 INFO  time: compiled assignment3 in 0.64s
+2022.11.21 13:34:55 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:34:59 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:34:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6022
+Nov 21, 2022 1:34:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6023
+Nov 21, 2022 1:34:59 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 17961, count -1, length 29043
+2022.11.21 13:34:59 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:00 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:35:00 INFO  time: compiled assignment3 in 0.38s
+2022.11.21 13:35:01 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:35:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6035
+2022.11.21 13:35:13 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:15 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:16 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:17 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:35:17 INFO  time: compiled assignment3 in 0.48s
+Nov 21, 2022 1:35:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6053
+2022.11.21 13:35:18 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:20 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:20 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:20 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:35:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6057
+Nov 21, 2022 1:35:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6061
+Nov 21, 2022 1:35:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6062
+Nov 21, 2022 1:35:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6066
+2022.11.21 13:35:22 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:23 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:24 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:25 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:35:25 INFO  time: compiled assignment3 in 0.17s
+2022.11.21 13:35:25 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:26 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:35:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6086
+2022.11.21 13:35:30 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:35:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6087
+2022.11.21 13:35:30 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:30 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:30 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:30 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:30 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6088
+Nov 21, 2022 1:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6089
+Nov 21, 2022 1:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6090
+Nov 21, 2022 1:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6092
+Nov 21, 2022 1:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6093
+Nov 21, 2022 1:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6094
+Nov 21, 2022 1:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6095
+Nov 21, 2022 1:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6096
+Nov 21, 2022 1:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6097
+Nov 21, 2022 1:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6100
+Nov 21, 2022 1:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6101
+Nov 21, 2022 1:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6102
+Nov 21, 2022 1:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6103
+Nov 21, 2022 1:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6098
+Nov 21, 2022 1:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6099
+2022.11.21 13:35:30 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:31 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6106
+Nov 21, 2022 1:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6109
+2022.11.21 13:35:31 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:32 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:32 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:33 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:35:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6122
+2022.11.21 13:35:34 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:34 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:36 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:36 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:37 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:37 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:35:38 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:35:38 INFO  time: compiled assignment3 in 0.36s
+2022.11.21 13:35:39 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:36:10 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:36:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6169
+Nov 21, 2022 1:36:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6168
+2022.11.21 13:36:10 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:36:10 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:36:11 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:36:11 INFO  time: compiled assignment3 in 0.75s
+2022.11.21 13:36:12 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:36:14 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:36:14 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:36:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6185
+2022.11.21 13:36:17 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:36:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6189
+2022.11.21 13:36:17 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:36:17 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:36:17 INFO  time: compiled assignment3 in 0.33s
+Nov 21, 2022 1:36:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6187
+Nov 21, 2022 1:36:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6188
+Nov 21, 2022 1:36:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6190
+Nov 21, 2022 1:36:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6191
+Nov 21, 2022 1:36:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6192
+2022.11.21 13:36:18 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:36:18 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:36:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6194
+Nov 21, 2022 1:36:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6195
+Nov 21, 2022 1:36:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6196
+2022.11.21 13:36:18 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:36:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6199
+2022.11.21 13:36:19 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:36:20 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:36:20 INFO  time: compiled assignment3 in 0.21s
+2022.11.21 13:36:22 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:36:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6206
+Nov 21, 2022 1:36:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6207
+2022.11.21 13:36:22 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:36:23 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:36:22 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:36:23 INFO  time: compiled assignment3 in 0.27s
+2022.11.21 13:36:24 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:36:25 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:36:25 INFO  time: compiled assignment3 in 0.43s
+2022.11.21 13:36:26 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:36:29 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:36:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6231
+Nov 21, 2022 1:36:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6234
+Nov 21, 2022 1:36:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6235
+Nov 21, 2022 1:36:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6232
+2022.11.21 13:36:29 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:36:29 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:36:29 INFO  time: compiled assignment3 in 0.25s
+2022.11.21 13:36:29 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:36:30 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:36:30 INFO  time: compiled assignment3 in 0.5s
+2022.11.21 13:36:30 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:36:32 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:36:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6246
+2022.11.21 13:36:35 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:36:35 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:36:40 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.11.21 13:36:40 INFO  time: compiled assignment3 in 4.88s
+2022.11.21 13:36:42 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:36:48 INFO  time: compiled assignment3 in 6.15s
+2022.11.21 13:36:49 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:36:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6273
+Nov 21, 2022 1:36:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6276
+Nov 21, 2022 1:36:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6277
+2022.11.21 13:36:53 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:36:55 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:36:56 INFO  time: compiled assignment3 in 1.05s
+Nov 21, 2022 1:37:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6290
+Nov 21, 2022 1:37:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6298
+Nov 21, 2022 1:37:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6292
+Nov 21, 2022 1:37:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6296
+Nov 21, 2022 1:37:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6297
+2022.11.21 13:37:00 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:37:01 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:37:05 INFO  time: compiled assignment3 in 4.59s
+Nov 21, 2022 1:37:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6309
+Nov 21, 2022 1:37:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6310
+Nov 21, 2022 1:37:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6308
+Nov 21, 2022 1:37:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6312
+Nov 21, 2022 1:37:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6314
+Nov 21, 2022 1:37:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6315
+Nov 21, 2022 1:37:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6313
+Nov 21, 2022 1:37:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6316
+2022.11.21 13:37:08 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:37:15 INFO  time: compiled assignment3 in 7.05s
+Nov 21, 2022 1:37:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6322
+2022.11.21 13:37:17 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:37:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6328
+2022.11.21 13:37:17 INFO  time: compiled assignment3 in 0.24s
+Nov 21, 2022 1:37:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6329
+Nov 21, 2022 1:37:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6331
+Nov 21, 2022 1:37:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6332
+Nov 21, 2022 1:37:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6335
+2022.11.21 13:37:17 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:37:17 INFO  time: compiled assignment3 in 0.21s
+2022.11.21 13:37:20 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:37:20 INFO  time: compiled assignment3 in 0.56s
+2022.11.21 13:37:29 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:37:36 INFO  time: compiled assignment3 in 7.28s
+2022.11.21 13:37:49 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:37:49 INFO  time: compiled assignment3 in 0.24s
+Nov 21, 2022 1:37:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6405
+Nov 21, 2022 1:37:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6414
+Nov 21, 2022 1:37:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6415
+2022.11.21 13:37:54 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:37:56 INFO  time: compiled assignment3 in 1.28s
+Nov 21, 2022 1:37:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6409
+Nov 21, 2022 1:37:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6410
+Nov 21, 2022 1:37:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6422
+2022.11.21 13:37:56 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:37:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6428
+Nov 21, 2022 1:38:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6431
+2022.11.21 13:38:00 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:38:02 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:38:02 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:38:03 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:38:03 INFO  time: compiled assignment3 in 0.88s
+Nov 21, 2022 1:38:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6454
+2022.11.21 13:38:11 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:38:11 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:38:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6452
+Nov 21, 2022 1:38:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6453
+Nov 21, 2022 1:38:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6457
+Nov 21, 2022 1:38:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6458
+Nov 21, 2022 1:38:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6459
+2022.11.21 13:38:17 INFO  time: compiled assignment3 in 6.34s
+Nov 21, 2022 1:38:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6463
+Nov 21, 2022 1:38:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6470
+Nov 21, 2022 1:38:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6471
+Nov 21, 2022 1:38:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6472
+Nov 21, 2022 1:38:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6473
+Nov 21, 2022 1:38:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6474
+Nov 21, 2022 1:38:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6475
+2022.11.21 13:38:20 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:38:21 INFO  time: compiled assignment3 in 1.07s
+Nov 21, 2022 1:38:21 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:38:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6479
+Nov 21, 2022 1:38:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6482
+Nov 21, 2022 1:38:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6483
+Nov 21, 2022 1:38:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6486
+Nov 21, 2022 1:38:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6488
+Nov 21, 2022 1:38:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6489
+2022.11.21 13:38:25 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:38:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6491
+Nov 21, 2022 1:38:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6493
+Nov 21, 2022 1:38:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6494
+Nov 21, 2022 1:38:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6496
+Nov 21, 2022 1:38:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6497
+Nov 21, 2022 1:38:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6498
+Nov 21, 2022 1:38:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6495
+2022.11.21 13:38:31 INFO  time: compiled assignment3 in 5.59s
+Nov 21, 2022 1:38:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6500
+Nov 21, 2022 1:38:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6504
+Nov 21, 2022 1:38:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6505
+Nov 21, 2022 1:38:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6508
+Nov 21, 2022 1:38:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6509
+2022.11.21 13:38:35 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:38:35 INFO  time: compiled assignment3 in 0.53s
+2022.11.21 13:39:47 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:39:47 INFO  time: compiled assignment3 in 0.55s
+2022.11.21 13:40:05 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:40:05 INFO  time: compiled assignment3 in 0.65s
+2022.11.21 13:40:05 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:40:13 INFO  time: compiled assignment3 in 6.69s
+Nov 21, 2022 1:40:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6543
+Nov 21, 2022 1:40:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6545
+Nov 21, 2022 1:40:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6555
+Nov 21, 2022 1:40:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6554
+2022.11.21 13:40:18 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:40:18 INFO  time: compiled assignment3 in 0.44s
+2022.11.21 13:40:18 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:40:18 INFO  time: compiled assignment3 in 0.12s
+Nov 21, 2022 1:40:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6568
+Nov 21, 2022 1:40:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6570
+Nov 21, 2022 1:40:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6573
+Nov 21, 2022 1:40:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6574
+Nov 21, 2022 1:40:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6576
+2022.11.21 13:40:27 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:40:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6583
+2022.11.21 13:40:33 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.11.21 13:40:33 INFO  time: compiled assignment3 in 7.19s
+Nov 21, 2022 1:40:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6592
+Nov 21, 2022 1:40:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6591
+Nov 21, 2022 1:40:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6590
+Nov 21, 2022 1:40:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6596
+Nov 21, 2022 1:40:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6595
+2022.11.21 13:40:36 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:40:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6599
+Nov 21, 2022 1:40:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6598
+Nov 21, 2022 1:40:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6600
+2022.11.21 13:40:42 INFO  time: compiled assignment3 in 6.28s
+Nov 21, 2022 1:40:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6602
+Nov 21, 2022 1:40:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6603
+Nov 21, 2022 1:40:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6611
+Nov 21, 2022 1:40:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6628
+2022.11.21 13:40:52 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:40:52 INFO  time: compiled assignment3 in 0.61s
+2022.11.21 13:40:57 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:40:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6643
+Nov 21, 2022 1:41:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6651
+Nov 21, 2022 1:41:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6653
+2022.11.21 13:41:04 INFO  time: compiled assignment3 in 6.85s
+Nov 21, 2022 1:41:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6658
+Nov 21, 2022 1:41:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6662
+Nov 21, 2022 1:41:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6661
+Nov 21, 2022 1:41:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6667
+Nov 21, 2022 1:41:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6670
+Nov 21, 2022 1:41:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6672
+Nov 21, 2022 1:41:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6684
+Nov 21, 2022 1:41:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6683
+Nov 21, 2022 1:41:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6686
+Nov 21, 2022 1:41:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6687
+Nov 21, 2022 1:41:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6688
+2022.11.21 13:41:17 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:41:17 INFO  time: compiled assignment3 in 0.12s
+Nov 21, 2022 1:41:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6704
+Nov 21, 2022 1:41:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6706
+Nov 21, 2022 1:41:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6705
+Nov 21, 2022 1:41:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6709
+Nov 21, 2022 1:41:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6710
+Nov 21, 2022 1:41:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6711
+Nov 21, 2022 1:41:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6714
+Nov 21, 2022 1:41:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6715
+Nov 21, 2022 1:41:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6713
+Nov 21, 2022 1:41:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6718
+2022.11.21 13:41:26 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:41:26 INFO  time: compiled assignment3 in 0.86s
+Nov 21, 2022 1:41:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6727
+Nov 21, 2022 1:41:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6729
+2022.11.21 13:41:31 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:41:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6735
+2022.11.21 13:41:31 INFO  time: compiled assignment3 in 0.63s
+Nov 21, 2022 1:41:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6732
+Nov 21, 2022 1:41:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6734
+2022.11.21 13:41:33 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:41:34 INFO  time: compiled assignment3 in 1.12s
+Nov 21, 2022 1:41:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6743
+Nov 21, 2022 1:41:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6750
+2022.11.21 13:41:40 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:41:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6748
+Nov 21, 2022 1:41:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6749
+Nov 21, 2022 1:41:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6753
+Nov 21, 2022 1:41:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6758
+2022.11.21 13:41:41 INFO  time: compiled assignment3 in 1.19s
+2022.11.21 13:41:41 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:41:41 INFO  time: compiled assignment3 in 0.56s
+Nov 21, 2022 1:41:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6772
+Nov 21, 2022 1:41:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6769
+2022.11.21 13:41:47 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:41:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6770
+Nov 21, 2022 1:41:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6771
+2022.11.21 13:41:47 INFO  time: compiled assignment3 in 0.66s
+Nov 21, 2022 1:41:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6777
+2022.11.21 13:41:47 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:41:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6780
+Nov 21, 2022 1:41:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6776
+2022.11.21 13:41:54 WARN  there was one deprecation warning; re-run with -deprecation for details
+2022.11.21 13:41:54 INFO  time: compiled assignment3 in 6.29s
+Nov 21, 2022 1:41:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6781
+Nov 21, 2022 1:41:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6789
+Nov 21, 2022 1:41:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6783
+Nov 21, 2022 1:41:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6787
+Nov 21, 2022 1:41:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6788
+2022.11.21 13:41:57 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:42:02 INFO  time: compiled assignment3 in 5.63s
+Nov 21, 2022 1:42:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6792
+Nov 21, 2022 1:42:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6793
+Nov 21, 2022 1:42:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6798
+Nov 21, 2022 1:42:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6804
+Nov 21, 2022 1:42:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6810
+Nov 21, 2022 1:42:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6811
+Nov 21, 2022 1:42:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6812
+Nov 21, 2022 1:42:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6813
+Nov 21, 2022 1:42:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6814
+Nov 21, 2022 1:42:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6822
+Nov 21, 2022 1:42:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6825
+2022.11.21 13:42:14 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:42:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6826
+Nov 21, 2022 1:42:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6828
+Nov 21, 2022 1:42:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6830
+2022.11.21 13:42:14 INFO  time: compiled assignment3 in 0.23s
+Nov 21, 2022 1:42:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6831
+Nov 21, 2022 1:42:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6835
+Nov 21, 2022 1:42:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6834
+2022.11.21 13:42:19 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:42:20 INFO  time: compiled assignment3 in 1.02s
+Nov 21, 2022 1:42:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6846
+Nov 21, 2022 1:42:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6847
+Nov 21, 2022 1:42:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6850
+Nov 21, 2022 1:42:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6848
+2022.11.21 13:42:27 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:42:27 INFO  time: compiled assignment3 in 0.25s
+Nov 21, 2022 1:42:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6859
+Nov 21, 2022 1:42:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6860
+Nov 21, 2022 1:42:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6861
+Nov 21, 2022 1:42:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6867
+Nov 21, 2022 1:42:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6866
+Nov 21, 2022 1:42:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6868
+2022.11.21 13:42:34 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:42:34 INFO  time: compiled assignment3 in 0.24s
+Nov 21, 2022 1:42:34 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 21, 2022 1:42:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6877
+Nov 21, 2022 1:42:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6883
+Nov 21, 2022 1:42:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6881
+Nov 21, 2022 1:42:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6878
+Nov 21, 2022 1:42:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6879
+Nov 21, 2022 1:42:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6880
+Nov 21, 2022 1:42:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6882
+Nov 21, 2022 1:42:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6885
+Nov 21, 2022 1:42:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6890
+2022.11.21 13:42:40 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:42:40 INFO  time: compiled assignment3 in 0.26s
+Nov 21, 2022 1:42:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6905
+Nov 21, 2022 1:42:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6906
+Nov 21, 2022 1:42:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6907
+Nov 21, 2022 1:42:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6909
+Nov 21, 2022 1:42:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6914
+Nov 21, 2022 1:42:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6917
+Nov 21, 2022 1:42:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6923
+Nov 21, 2022 1:42:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6924
+Nov 21, 2022 1:42:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6925
+2022.11.21 13:42:52 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:42:52 INFO  time: compiled assignment3 in 0.55s
+Nov 21, 2022 1:42:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6959
+Nov 21, 2022 1:42:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6961
+2022.11.21 13:42:58 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:42:58 INFO  time: compiled assignment3 in 0.69s
+2022.11.21 13:43:00 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:43:00 INFO  time: compiled assignment3 in 0.44s
+Nov 21, 2022 1:43:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6968
+Nov 21, 2022 1:43:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6972
+Nov 21, 2022 1:43:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6974
+Nov 21, 2022 1:43:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6971
+2022.11.21 13:43:07 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:43:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6973
+Nov 21, 2022 1:43:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6978
+Nov 21, 2022 1:43:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6979
+Nov 21, 2022 1:43:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6980
+Nov 21, 2022 1:43:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6981
+2022.11.21 13:43:08 INFO  time: compiled assignment3 in 1.14s
+Nov 21, 2022 1:43:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6984
+Nov 21, 2022 1:43:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6985
+Nov 21, 2022 1:43:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6987
+Nov 21, 2022 1:43:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6988
+Nov 21, 2022 1:43:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6986
+2022.11.21 13:43:12 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:43:12 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.21 13:43:12 INFO  time: compiled assignment3 in 0.8s
+Nov 21, 2022 1:43:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7008
+Nov 21, 2022 1:43:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7009
+Nov 21, 2022 1:43:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7012
+2022.11.21 13:43:18 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:43:18 INFO  time: compiled assignment3 in 0.67s
+2022.11.21 13:43:20 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:43:20 INFO  time: compiled assignment3 in 0.81s
+Nov 21, 2022 1:43:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7023
+Nov 21, 2022 1:43:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7024
+Nov 21, 2022 1:43:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7026
+2022.11.21 13:43:24 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:43:24 INFO  time: compiled assignment3 in 0.58s
+Nov 21, 2022 1:43:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7037
+Nov 21, 2022 1:43:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7038
+Nov 21, 2022 1:43:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7039
+Nov 21, 2022 1:43:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7041
+Nov 21, 2022 1:43:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7042
+2022.11.21 13:43:30 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:43:30 INFO  time: compiled assignment3 in 0.26s
+2022.11.21 13:43:33 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:43:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7049
+2022.11.21 13:43:33 INFO  time: compiled assignment3 in 0.55s
+Nov 21, 2022 1:43:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7051
+Nov 21, 2022 1:43:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7052
+Nov 21, 2022 1:43:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7057
+Nov 21, 2022 1:43:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7068
+Nov 21, 2022 1:43:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7069
+2022.11.21 13:43:44 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:43:44 INFO  time: compiled assignment3 in 0.28s
+Nov 21, 2022 1:43:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7084
+Nov 21, 2022 1:43:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7083
+Nov 21, 2022 1:43:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7090
+Nov 21, 2022 1:43:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7094
+Nov 21, 2022 1:43:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7095
+2022.11.21 13:43:58 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:43:58 INFO  time: compiled assignment3 in 0.16s
+Nov 21, 2022 1:44:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7128
+Nov 21, 2022 1:44:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7129
+Nov 21, 2022 1:44:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7126
+Nov 21, 2022 1:44:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7134
+Nov 21, 2022 1:44:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7135
+2022.11.21 13:44:05 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:44:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7140
+Nov 21, 2022 1:44:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7141
+2022.11.21 13:44:05 INFO  time: compiled assignment3 in 0.17s
+Nov 21, 2022 1:44:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7147
+Nov 21, 2022 1:44:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7148
+Nov 21, 2022 1:44:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7150
+Nov 21, 2022 1:44:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7153
+Nov 21, 2022 1:44:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7154
+Nov 21, 2022 1:44:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7168
+Nov 21, 2022 1:44:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7169
+Nov 21, 2022 1:44:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7170
+Nov 21, 2022 1:44:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7174
+2022.11.21 13:44:20 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:44:26 INFO  time: compiled assignment3 in 5.74s
+2022.11.21 13:45:33 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:45:33 INFO  time: compiled assignment3 in 0.96s
+2022.11.21 13:45:34 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:45:34 INFO  time: compiled assignment3 in 0.58s
+Nov 21, 2022 1:45:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7215
+Nov 21, 2022 1:45:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7217
+Nov 21, 2022 1:45:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7218
+Nov 21, 2022 1:47:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7321
+2022.11.21 13:48:05 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:48:05 INFO  time: compiled assignment3 in 0.27s
+Nov 21, 2022 1:48:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7358
+Nov 21, 2022 1:48:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7364
+Nov 21, 2022 1:48:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7362
+2022.11.21 13:48:19 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:48:19 INFO  time: compiled assignment3 in 0.53s
+Nov 21, 2022 1:48:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7380
+2022.11.21 13:48:23 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:48:23 INFO  time: compiled assignment3 in 60ms
+2022.11.21 13:48:23 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:48:24 INFO  time: compiled assignment3 in 0.26s
+2022.11.21 13:48:26 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:48:26 INFO  time: compiled assignment3 in 0.25s
+Nov 21, 2022 1:48:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7400
+Nov 21, 2022 1:48:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7407
+Nov 21, 2022 1:48:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7408
+Nov 21, 2022 1:48:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7409
+2022.11.21 13:48:31 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:48:31 INFO  time: compiled assignment3 in 0.33s
+Nov 21, 2022 1:48:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7417
+Nov 21, 2022 1:48:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7420
+2022.11.21 13:48:35 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:48:43 INFO  time: compiled assignment3 in 8.31s
+Nov 21, 2022 1:48:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7439
+2022.11.21 13:48:45 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:48:45 INFO  time: compiled assignment3 in 0.43s
+Nov 21, 2022 1:48:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7445
+Nov 21, 2022 1:48:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7446
+2022.11.21 13:48:46 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:48:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7437
+Nov 21, 2022 1:48:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7438
+Nov 21, 2022 1:48:46 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.11.21 13:48:46 INFO  time: compiled assignment3 in 0.38s
+Nov 21, 2022 1:48:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7448
+Nov 21, 2022 1:48:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7447
+Nov 21, 2022 1:48:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7449
+Nov 21, 2022 1:48:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7450
+Nov 21, 2022 1:48:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7442
+2022.11.21 13:48:50 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:48:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7451
+Nov 21, 2022 1:48:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7454
+Nov 21, 2022 1:48:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7460
+Nov 21, 2022 1:48:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7461
+Nov 21, 2022 1:48:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7462
+Nov 21, 2022 1:48:51 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.Predef$.Integer2int(Predef.scala:362)
+	at scala.meta.internal.pc.SignatureHelpProvider.toSignatureHelp(SignatureHelpProvider.scala:470)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.Option.map(Option.scala:146)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:28)
+
+2022.11.21 13:48:51 INFO  time: compiled assignment3 in 1.01s
+2022.11.21 13:48:51 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:48:53 PM scala.meta.internal.pc.CompilerAccess scala$meta$internal$pc$CompilerAccess$$handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.Predef$.Integer2int(Predef.scala:362)
+	at scala.meta.internal.pc.SignatureHelpProvider.toSignatureHelp(SignatureHelpProvider.scala:470)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.meta.internal.pc.SignatureHelpProvider$$anonfun$signatureHelp$1.apply(SignatureHelpProvider.scala:28)
+	at scala.Option.map(Option.scala:146)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:28)
+
+2022.11.21 13:48:53 INFO  time: compiled assignment3 in 0.9s
+Nov 21, 2022 1:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7480
+Nov 21, 2022 1:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7472
+Nov 21, 2022 1:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7475
+Nov 21, 2022 1:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7476
+Nov 21, 2022 1:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7477
+Nov 21, 2022 1:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7478
+Nov 21, 2022 1:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7479
+Nov 21, 2022 1:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7485
+Nov 21, 2022 1:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7486
+Nov 21, 2022 1:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7487
+Nov 21, 2022 1:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7488
+Nov 21, 2022 1:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7489
+Nov 21, 2022 1:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7490
+Nov 21, 2022 1:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7491
+Nov 21, 2022 1:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7492
+Nov 21, 2022 1:48:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7493
+Nov 21, 2022 1:48:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7494
+Nov 21, 2022 1:48:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7495
+Nov 21, 2022 1:48:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7496
+Nov 21, 2022 1:48:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7497
+Nov 21, 2022 1:48:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7498
+2022.11.21 13:48:58 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:48:58 INFO  time: compiled assignment3 in 0.67s
+Nov 21, 2022 1:49:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7508
+Nov 21, 2022 1:49:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7509
+Nov 21, 2022 1:49:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7510
+Nov 21, 2022 1:49:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7511
+Nov 21, 2022 1:49:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7512
+Nov 21, 2022 1:49:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7513
+Nov 21, 2022 1:49:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7514
+Nov 21, 2022 1:49:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7518
+2022.11.21 13:49:06 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:49:06 INFO  time: compiled assignment3 in 0.81s
+Nov 21, 2022 1:49:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7523
+Nov 21, 2022 1:49:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7526
+2022.11.21 13:49:20 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:49:20 INFO  time: compiled assignment3 in 0.79s
+Nov 21, 2022 1:49:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7546
+Nov 21, 2022 1:49:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7545
+2022.11.21 13:49:25 INFO  compiling assignment3 (1 scala source)
+Nov 21, 2022 1:49:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7557
+2022.11.21 13:49:31 INFO  time: compiled assignment3 in 5.96s
+2022.11.21 13:49:42 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:49:42 INFO  time: compiled assignment3 in 0.9s
+2022.11.21 13:49:43 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:49:43 INFO  time: compiled assignment3 in 0.81s
+2022.11.21 13:49:47 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:49:54 INFO  time: compiled assignment3 in 7.23s
+2022.11.21 13:49:57 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:49:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7604
+Nov 21, 2022 1:49:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7602
+2022.11.21 13:49:57 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:49:57 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:49:57 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:49:57 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:49:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7603
+Nov 21, 2022 1:49:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7607
+Nov 21, 2022 1:49:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7608
+Nov 21, 2022 1:49:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7613
+Nov 21, 2022 1:49:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7621
+Nov 21, 2022 1:49:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7622
+Nov 21, 2022 1:49:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7623
+Nov 21, 2022 1:49:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7624
+Nov 21, 2022 1:49:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7625
+2022.11.21 13:49:59 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:50:07 INFO  time: compiled assignment3 in 10s
+Nov 21, 2022 1:50:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7635
+Nov 21, 2022 1:50:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7632
+Nov 21, 2022 1:50:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7636
+Nov 21, 2022 1:50:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7644
+2022.11.21 13:51:51 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:51:59 INFO  time: compiled assignment3 in 8s
+Nov 21, 2022 1:52:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7665
+2022.11.21 13:52:00 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+Nov 21, 2022 1:52:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7666
+Nov 21, 2022 1:52:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7669
+Nov 21, 2022 1:52:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7682
+Nov 21, 2022 1:52:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7683
+Nov 21, 2022 1:52:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7687
+Nov 21, 2022 1:52:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7691
+Nov 21, 2022 1:52:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7692
+Nov 21, 2022 1:52:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7693
+2022.11.21 13:52:06 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:52:06 INFO  time: compiled assignment3 in 0.3s
+Nov 21, 2022 1:52:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7702
+Nov 21, 2022 1:52:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7703
+Nov 21, 2022 1:52:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7704
+Nov 21, 2022 1:52:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7708
+Nov 21, 2022 1:52:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7709
+2022.11.21 13:52:14 INFO  compiling assignment3 (1 scala source)
+2022.11.21 13:52:15 WARN  Could not load snapshot text for /home/sizzle/EPL/Assn3EPL/src/main/scala/Assignment3/RabbitStandalone.scala
+2022.11.21 13:52:21 INFO  time: compiled assignment3 in 7.18s

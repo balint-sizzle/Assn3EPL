@@ -515,6 +515,42 @@ object Assignment3Standalone {
 
   // ----------------------------------------------------------------
   // Desugaring
+  def FV(x: Any): Set[Variable] = x match {
+    case v:Value => Set()
+    case v: Variable => Set(v)
+    case e: Expr => e match {
+      case Plus(e1,e2) => FV(e1)++:FV(e2)
+      case Minus(e1,e2) => FV(e1)++:FV(e2)
+      case Times(e1,e2) => FV(e1)++:FV(e2)
+      case Div(e1,e2) => FV(e1)++:FV(e2)
+      case Eq(e1,e2) => FV(e1)++:FV(e2)
+      case IfThenElse(e,e1,e2) => FV(e)++:FV(e1)++:FV(e2)
+      case GreaterThan(e1,e2) => FV(e1)++:FV(e2)
+      case LessThan(e1,e2) => FV(e1)++:FV(e2)
+      case Let(x, e1,e2) => FV(e1)++:(FV(e2)-x)
+      case LetFun(f,arg,ty,e1,e2) => FV(e1)++:(FV(e2)-f)
+      case LetRec(f,arg,xty,ty,e1,e2) => FV(e1)++:(FV(e2)-f)
+      case LetPair(x,y,e1,e2) => FV(e1)++:((FV(e2)-x)-y)
+      case Pair(e1,e2) => FV(e1)++:FV(e2)
+      case Fst(e) => FV(e)
+      case Snd(e) => FV(e)
+      case Lambda(x,ty,e) => FV(e)-x
+      case Rec(f,x,xty,ty,e) => (FV(e)-f)-x
+      case App(e1,e2) => FV(e1)++:FV(e2)
+      case Cons(e1,e2) => FV(e1)++:FV(e2)
+      case ListCase(l, e1,x,y,e2) => FV(l)++:FV(e1)++:(FV(e2)-x-y)
+      case Seq(e1,e2)=> FV(e1)++:FV(e2)
+      case Pure(e) => FV(e)
+      case Apply(e1, e2) => FV(e1)++:FV(e2)
+      case Read(e) => FV(e)
+      case MoveXY(x,y, a) => FV(x)++:FV(y)++:FV(a)
+      case Over(e1,e2) => FV(e1)++:FV(e2)
+      case When(e1,e2,e3) => FV(e1)++:FV(e2)++:FV(e3)
+      case SignalBlock(se) => FV(se)
+      case Escape(e) => FV(e)
+      case _ => Set()
+    }
+  }
   def desugar(e: Expr): Expr = {
     def desugarVal(v: Value): Value = v match {
       case PairV(v1, v2) => PairV(desugarVal(v1), desugarVal(v2))
@@ -528,7 +564,26 @@ object Assignment3Standalone {
     e match {
       case v: Value => desugarVal(v)
       // BEGIN ANSWER
-      case _ => sys.error("todo")
+      case LetFun(f,arg,ty,e1,e2) =>
+      Let(f,Lambda(arg,ty,desugar(e1)),desugar(e2))
+      
+      case LetRec(f,arg,xty,ty,e1,e2) => {
+        Let(f,
+          Rec(f,arg,xty,ty,desugar(e1)),
+          desugar(e2))
+      }
+      case LetPair(x,y,e1,e2) => {
+        val p = Gensym.gensym("p")
+        Let(p,desugar(e1),subst(subst(desugar(e2),Fst(Var(p)),x),Snd(Var(p)),y))
+      }
+      case Seq(t1,t2) => {
+        var FVseq = FV(t2).toSeq
+        if (FVseq.length <0) {FVseq = Set("x").toSeq}
+        val xfv = Gensym.gensym(FVseq(0))
+        Let(xfv, desugar(t1),desugar(t2))
+      }
+
+      case SignalBlock(se) => sys.error("todo")
       // END ANSWER
     }
   }
