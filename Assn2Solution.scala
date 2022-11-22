@@ -713,7 +713,7 @@ object Assn2 {
       tyOf(Map.empty,ast);
 
     def evaluate(ast: Expr):Value =
-      eval(Map.empty,ast)
+      eval(Map.empty,ast);
 
 
 

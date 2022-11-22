@@ -695,7 +695,34 @@ object Assignment3Standalone {
       // Values
       case v: Value => v
       // BEGIN ANSWER
-      case _ => sys.error("todo")
+      case IfThenElse(e, e1, e2) => (eval(e), e1, e2) match{
+        case (BoolV(b), _, _) => {
+          if (b==true){eval(e1)}
+          else {eval(e2)}
+        }
+        case _ => sys.error("condition is not boolean")
+      }
+      case Let(x, e1, e2) => (eval(e1), eval(subst(eval(e1),e2,x))) match {
+        case (v: Value, v1: Value) => eval(subst(eval(e1),e2,x))
+      }
+      case ListCase(l, e1, x, y, e2) => l match {
+        case EmptyList(ty) => {
+          eval(e1)
+        }
+        case (Cons(e1, e2)) => {
+          val v1 = eval(e1)
+          val v2 = eval(e2)
+          eval(subst(v1, (subst(v2, e2, y)), x))
+        }
+      }
+      case LetRec(f, arg, xty, ty, e1, e2) => sys.error("todo")
+
+      case Fst(e) => eval(extractFstArg(e))
+      case Snd(e) => eval(extractSndArg(e))
+
+      //Signals
+      case Read(e) => Read(eval(e))
+      
       // END ANSWER
     }
 

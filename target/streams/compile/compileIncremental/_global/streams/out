@@ -1,39 +1,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
-[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 469 products, 6 sources, 3 libraries[0m
-[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/Assignment3/RabbitStandalone.scala, ${BASE}/src/main/scala/Assignment3/RabbitEDSL.scala, ${BASE}/src/main/scala/Assignment3/RabbitParser.scala, ${BASE}/src/main/scala/Assignment3/RabbitSyntax.scala, ${BASE}/src/main/scala/Assignment3/FRP.scala, ${BASE}/src/main/scala/Assignment3/AnimatedGif.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Assignment3/RabbitEDSL.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
-[0m[[0m[0mdebug[0m] [0m[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/Assignment3/RabbitEDSL.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(Assignment3.RabbitEDSL.Assignment3Embedded.animalDance2, Assignment3.RabbitEDSL.Assignment3Embedded.RabbitDSLImpl, Assignment3.RabbitEDSL.Assignment3Embedded, Assignment3.RabbitEDSL.Assignment3Embedded.RabbitDSL.LiftAssoc, Assignment3.RabbitEDSL.Assignment3Embedded.RabbitDSL, Assignment3.RabbitEDSL.Assignment3Embedded.Testing, Assignment3.RabbitEDSL.Assignment3Embedded.RabbitDSL.OverAssoc, Assignment3.RabbitEDSL.Assignment3Embedded.animalDance)[0m
-[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(Assignment3.RabbitEDSL.Assignment3Embedded.animalDance2, Assignment3.RabbitEDSL.Assignment3Embedded.RabbitDSLImpl, Assignment3.RabbitEDSL.Assignment3Embedded, Assignment3.RabbitEDSL.Assignment3Embedded.RabbitDSL.LiftAssoc, Assignment3.RabbitEDSL.Assignment3Embedded.RabbitDSL, Assignment3.RabbitEDSL.Assignment3Embedded.Testing, Assignment3.RabbitEDSL.Assignment3Embedded.RabbitDSL.OverAssoc, Assignment3.RabbitEDSL.Assignment3Embedded.animalDance)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/Assignment3/RabbitEDSL.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Assignment3.RabbitEDSL.Assignment3Embedded.animalDance2, Assignment3.RabbitEDSL.Assignment3Embedded.RabbitDSLImpl, Assignment3.RabbitEDSL.Assignment3Embedded, Assignment3.RabbitEDSL.Assignment3Embedded.RabbitDSL.LiftAssoc, Assignment3.RabbitEDSL.Assignment3Embedded.RabbitDSL, Assignment3.RabbitEDSL.Assignment3Embedded.Testing, Assignment3.RabbitEDSL.Assignment3Embedded.RabbitDSL.OverAssoc, Assignment3.RabbitEDSL.Assignment3Embedded.animalDance[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding Assignment3.RabbitEDSL.Assignment3Embedded.Testing by Assignment3.RabbitEDSL.Assignment3Embedded.RabbitDSL[0m
-[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/sizzle/EPL/Assn3EPL/target/scala-2.11/classes ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.11:1.7.2:compile for Scala 2.11.12[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 396b360a for Scala compiler version 2.11.12[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/home/sizzle/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/home/sizzle/EPL/Assn3EPL/target/scala-2.11/classes:/home/sizzle/EPL/Assn3EPL/lib/com.drewnoakes.metadata-extractor-2.18.0.jar:/home/sizzle/EPL/Assn3EPL/lib/com.sksamuel.scrimage.scrimage-core-4.0.32.jar:/home/sizzle/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sksamuel/scrimage/scrimage-core/4.0.32/scrimage-core-4.0.32.jar:/home/sizzle/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/2.1.1/scala-parser-combinators_2.11-2.1.1.jar:/home/sizzle/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-core/3.8.2/imageio-core-3.8.2.jar:/home/sizzle/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-jpeg/3.8.2/imageio-jpeg-3.8.2.jar:/home/sizzle/.cache/coursier/v1/https/repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.18.0/metadata-extractor-2.18.0.jar:/home/sizzle/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/zh79325/open-gif/1.0.4/open-gif-1.0.4.jar:/home/sizzle/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/sizzle/.cache/coursier/v1/https/repo1.maven.org/maven2/ar/com/hjg/pngj/2.1.0/pngj-2.1.0.jar:/home/sizzle/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twelvemonkeys/common/common-lang/3.8.2/common-lang-3.8.2.jar:/home/sizzle/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twelvemonkeys/common/common-io/3.8.2/common-io-3.8.2.jar:/home/sizzle/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twelvemonkeys/common/common-image/3.8.2/common-image-3.8.2.jar:/home/sizzle/.cache/coursier/v1/https/repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-metadata/3.8.2/imageio-metadata-3.8.2.jar:/home/sizzle/.cache/coursier/v1/https/repo1.maven.org/maven2/com/adobe/xmp/xmpcore/6.1.11/xmpcore-6.1.11.jar:/home/sizzle/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar:/home/sizzle/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar:/home/sizzle/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
-[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.441160323 s[0m
-[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 711 products, 7 sources, 3 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/Assignment3/RabbitStandalone.scala, ${BASE}/src/main/scala/Assignment3/RabbitEDSL.scala, ${BASE}/src/main/scala/Assignment3/RabbitParser.scala, ${BASE}/src/main/scala/Assignment3/RabbitSyntax.scala, ${BASE}/src/main/scala/Assignment3/FRP.scala, ${BASE}/src/main/scala/Assignment3/AnimatedGif.scala, ${BASE}/Assn2Solution.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
